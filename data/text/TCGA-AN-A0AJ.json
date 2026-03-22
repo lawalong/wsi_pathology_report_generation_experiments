@@ -1,0 +1,16 @@
+{
+  "diagnosis": "Breast Cancer Histological description: Initrative ductal-lobular carcinoma",
+  "microscopic": "",
+  "margins": "",
+  "lymph_nodes": "",
+  "ptnm": "",
+  "keywords": [
+    "breast",
+    "tumor",
+    "ductal",
+    "lobular",
+    "carcinoma"
+  ],
+  "full": "stb: 6 2365F3-6875-4849-2499-7E2688008708 ES Diagnosis: Breast Cancer Histological description: Initrative ductal-lobular carcinoma Date of Procurement Anatomic Site: Left Breast Tumor location: Primary Tissue Specification: Tumor Specimen Matrix: Tissue Specimen Format: OCT Container: block Type of Procurement: surgery Grade: 2 Tstage: 3. N Stage:0 M Stage: 0 Treatment: none Treatment Details: n/a Normal Sample Anatomic Site: Blood Sample Type: Normal Type of Procurement: blood draw Matrix: Blood Specimen Format: frozen Container: tube Date of Procurement: 10D-0-3 daveniema, rifiltrating buchh sok ltbuled 8592/3 Site: bremt wos 050.9 Araly",
+  "case_id": "TCGA-AN-A0AJ"
+}

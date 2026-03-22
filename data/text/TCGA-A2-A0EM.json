@@ -1,0 +1,29 @@
+{
+  "diagnosis": "A. SENTINEL LYMPH NODE, BIOPSY: - 1 LYMPH NODES NEGATIVE FOR TUMOR BY H&E. - NEGATIVE FOR CYTOKERATIN BY IMMUNOHISTOCHEMISTRY . B. BREAST, RIGHT, LUMPECTOMY: INFLITRATIVE DUCTAL CARCINOMA WITH CRIBRIFORM PATTERN, WELL DIFFERENTIATED. - SIZE: 1M. - MARGINS NEGATIVE. NEAREST MARGIN, SUPERIOR, 2.0 MM ~ NO LYMPHVASCULAR SPACE INVASION IDENTIFIED. - FIBROCYSTIC CHANGES TO INCLUDE FIBROSIS, CYSTS, AND APOCRINE METAPLASIA. - MICROCALCIFICATIONS ASSOCIATED WITH BENIGN AND MALIGNANT BREAST TISSUE. - AJCC T1bNOMx. C. SUPERIOR MEDIAL BORDER TISSUE, EXCISION: - BENIGN FIBROFATTY CONNECTIVE TISSUE. ** Report Electronically Signed out **",
+  "microscopic": "",
+  "margins": "NEGATIVE. NEAREST MARGIN, SUPERIOR, 2.0 MM ~ NO LYMPHVASCULAR SPACE INVASION IDENTIFIED. - FIBROCYSTIC CHANGES TO INCLUDE FIBROSIS, CYSTS, AND APOCRINE METAPLASIA. - MICROCALCIFICATIONS ASSOCIATED WITH BENIGN AND MALIGNANT BREAST TISSUE. - AJCC T1bNOMx. C. SUPERIOR MEDIAL BORDER TISSUE, EXCISION: - BENIGN FIBROFATTY CONNECTIVE TISSUE. ** Report Electronically Signed out **",
+  "lymph_nodes": "B: RIGHT BREAST TISSUE iotln C: SUPERIOR MEDIAL BORDER",
+  "ptnm": "",
+  "keywords": [
+    "breast",
+    "tumor",
+    "negative",
+    "lymph node",
+    "sentinel",
+    "lobular",
+    "margin",
+    "ductal",
+    "carcinoma",
+    "margins",
+    "lymph nodes",
+    "biopsy",
+    "lumpectomy",
+    "excision",
+    "mass",
+    "0.5 cm",
+    "2.3 cm",
+    "1.5 cm"
+  ],
+  "full": "YOR OFFICIAL USE ONLY - PEREOWAL DATA - PRIVACY ACT OF 1974 SURGICAL PATHOLOGY REPORT Patient: Specimen #: FMP/SSN: . DOB/Age/Sex: Race: WHITE Taken: Location: Received: Physician (s) : Reported: ssamempEDes /C6-0-3 | sipnabiy kuch os Bets SPECIMEN: Site: breaat nos 050.9 A: SENTINEL LYMPH NODE B: RIGHT BREAST TISSUE iotln C: SUPERIOR MEDIAL BORDER FINAL DIAGNOSIS: A. SENTINEL LYMPH NODE, BIOPSY: - 1 LYMPH NODES NEGATIVE FOR TUMOR BY H&E. - NEGATIVE FOR CYTOKERATIN BY IMMUNOHISTOCHEMISTRY . B. BREAST, RIGHT, LUMPECTOMY: INFLITRATIVE DUCTAL CARCINOMA WITH CRIBRIFORM PATTERN, WELL DIFFERENTIATED. - SIZE: 1M. - MARGINS NEGATIVE. NEAREST MARGIN, SUPERIOR, 2.0 MM ~ NO LYMPHVASCULAR SPACE INVASION IDENTIFIED. - FIBROCYSTIC CHANGES TO INCLUDE FIBROSIS, CYSTS, AND APOCRINE METAPLASIA. - MICROCALCIFICATIONS ASSOCIATED WITH BENIGN AND MALIGNANT BREAST TISSUE. - AJCC T1bNOMx. C. SUPERIOR MEDIAL BORDER TISSUE, EXCISION: - BENIGN FIBROFATTY CONNECTIVE TISSUE. ** Report Electronically Signed out ** CLINICAL DIAGNOSIS AND HISTORY: year-old white female with right breast cancer. Right breast canee Eat a HMA wl Ht Page 1 \"POR OFFICIAL USE ONLY - PERSOKAL SATA - PRIVACY ACT OF 1974 age YOR OFFICIAL UBX ONLY - PERSONAL DATA - PRIVACY ACT OF 1974 SURGICAL PATHOLOGY REPORT Patient: Specimen #: GROSS DESCRIPTION: A. SENTINEL LYMPH NODE received fresh and consists of multiple irregular fragments of tan/yellow soft tissue measuring x 2.0 x 0.5 cm in agareaate. The specimen is submitted in its entirety in two cassettes. B. RIGHT BREAST TISSUE received fresh and consists of a 9.0 x 6.5 x 2.3 cm piece of fatty tissue oriented with sutures (one-medial, two-superior, three-anterior). Ink code: Red=medial and lateral, blue-superior, green=inferior, yellowsanterior, black=posterior. Sectioning reveals a 0.6 om white/tan, ovoid mass with gritty cut surface, on sectioning-3.0 mm from superior/posterior margin. The remaining tissue is mostly fatty with admixed patches of white fibrous tissue. One se",
+  "case_id": "TCGA-A2-A0EM"
+}

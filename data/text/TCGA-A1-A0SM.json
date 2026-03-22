@@ -1,0 +1,31 @@
+{
+  "diagnosis": "A. Left axillary sentinel lymph node #1, biopsy: No tumor in one lymph node (0/1). B. Left axillary sentinel lymph node #2, biopsy: No tumor in one lymph node (0/1). C. Left axillary minor sentinel lymph node #3, biopsy: No tumor in one lymph node (0/1). D. Left breast, mastectomy: 1. Invasive ductal carcinoma, 3.5 cm, grade 2, associated with microcalcifications; see comment. 2. Ductal carcinoma in situ, cribriform, intermediate grade. 3. Gynecomastia.",
+  "microscopic": "evaluation, with the anterior superior inked in blue, the anterior inferior inked in green and the posterior inked in black. The specimen Is then sectioned into fifteen slices, numbered from medial to lateral. The nipple-areolar complex appears in slices 5-7. Sectioning shows an irregular, lobulated, pink-tan mass measuring 3.5 cm; this is located in the inner lower quadrant deep to the nipple, in slices 5-7. The cyst mass extends to within 0.7 cm of the deep margin, 1.7 cm from the anterior Superior margin, and 1.9 cm from the anterior inferior margin. The remainder of the breast parenchyma consists of yellow fatty tissue and Is unremarkable. Cassettes",
+  "margins": "for invasive tumor: = Deep margin: Negative; (tumor is 0.3 cm away, on slide D4), Tage of @ . Surgical Pathology Working Draft - Medial margin: Negative; (tumor is >1 cm away). = Lateral margin: Negative; (tumor is >1 cm away). = Anterior/superior margin: Negative; (tumor is >1 cm away). = Anterior/inferior margin: Negative; (tumor is 0.8 cm away, on slide D3). = Ductal carcinoma in situ (DCIS) type: Cribriform, ~ Ductal carcinoma in situ size: 0.3 cm. = Ductal carcinoma in situ nuclear grade: Intermediate nuclear grade. = Necrosis in DCIS: None. ~ Microcalcifications: Present in invasive carcinoma. - Resection margins for ductal carcinoma in situ: = Deep margin: Negative; (tumor is >1 cm away). - Medial margin: Negative; (tumor is >1 cm away). = Lateral margin: Negative; (tumor Is >1 cm away). = Anterior/superior margin: Negative; (tumor Is >1 cm away), - Anterior/inferior margin: Negative; (tumor is >1 cm away). - Lymph node status: Negative (0/3). = AICC/UICC stage: pT2NOMX. - Nontumorous breast tissue: Gynecomastia. = Nipple: No tumor. = Skin/dermis: No tumor. = Additional comments: Each sentinel lymph node was examined with level sections. No metastatic carcinoma was identified, GER hes eviewed selected slides and concurs with the findings. Intraoperative Consult Diagnosis FSi (A) Sentinel lymph node #1. left axilla, biopsy: No carcinoma. Cytologic preparations and frozen section TS, FS2 (B) Sentinel lymph node #2, left axilla, blopsy: No carcinoma. Cytologic preparations and frozen section), Clinical History The patient is a__-year-old _with invasive ductal carcinoma of the left breast, This diagnosis was established by cdr biopsy at another instifiifinn Thar hinnew showed that the carcinoma Is ER, PR,",
+  "lymph_nodes": "sentinel lymph node #1, biopsy: No tumor in one lymph node (0/1). B. Left axillary sentinel lymph node #2, biopsy: No tumor in one lymph node (0/1). C. Left axillary minor sentinel lymph node #3, biopsy: No tumor in one lymph node (0/1). D. Left breast, mastectomy: 1. Invasive ductal carcinoma, 3.5 cm, grade 2, associated with microcalcifications; see comment. 2. Ductal carcinoma in situ, cribriform, intermediate grade. 3. Gynecomastia.",
+  "ptnm": "",
+  "keywords": [
+    "tumor",
+    "carcinoma",
+    "margin",
+    "lymph node",
+    "negative",
+    "invasive",
+    "ductal",
+    "1 cm",
+    "her2",
+    "sentinel",
+    "positive",
+    "breast",
+    "biopsy",
+    "mass",
+    "grade 2",
+    "axillary",
+    "3.5 cm",
+    "resection",
+    "margins",
+    "pr"
+  ],
+  "full": "stb :aF07F59- F34-4590-874-osens 7860324 TCGA*AL-ABSH-614-PR edacted I vine Ich-0-3 Canerhormn, vip trating cluch- Wes 8500/3 Sites brat wes 050.9 Jv r0faifu Final Pathologic Diagnosis: A. Left axillary sentinel lymph node #1, biopsy: No tumor in one lymph node (0/1). B. Left axillary sentinel lymph node #2, biopsy: No tumor in one lymph node (0/1). C. Left axillary minor sentinel lymph node #3, biopsy: No tumor in one lymph node (0/1). D. Left breast, mastectomy: 1. Invasive ductal carcinoma, 3.5 cm, grade 2, associated with microcalcifications; see comment. 2. Ductal carcinoma in situ, cribriform, intermediate grade. 3. Gynecomastia. Note: Breast Tumor Synoptic Comment = Laterality: Left. - Invasive tumor type: Invasive ductal carcinoma. - Invasive tumor size: 3.5 cm maximum diameter. Invasive tumor grade (modified Bloom-Richardson): Grade 2. Nuclear grade: 3 = 3 points. Mitotic count: <10 mitotic figures/10 HPF = 1 point. Tubule/papilla formation: Definite tubule formation in <10% = 3 points. Total points and overall grade: 7 points = grade 2. - Lymphatic-vascular Invasion: None. = Perineural invasion: None. = Resection margins for invasive tumor: = Deep margin: Negative; (tumor is 0.3 cm away, on slide D4), Tage of @ . Surgical Pathology Working Draft - Medial margin: Negative; (tumor is >1 cm away). = Lateral margin: Negative; (tumor is >1 cm away). = Anterior/superior margin: Negative; (tumor is >1 cm away). = Anterior/inferior margin: Negative; (tumor is 0.8 cm away, on slide D3). = Ductal carcinoma in situ (DCIS) type: Cribriform, ~ Ductal carcinoma in situ size: 0.3 cm. = Ductal carcinoma in situ nuclear grade: Intermediate nuclear grade. = Necrosis in DCIS: None. ~ Microcalcifications: Present in invasive carcinoma. - Resection margins for ductal carcinoma in situ: = Deep margin: Negative; (tumor is >1 cm away). - Medial margin: Negative; (tumor is >1 cm away). = Lateral margin: Negative; (tumor Is >1 cm away). = Anterior/superior margin: Negative; (tumor ",
+  "case_id": "TCGA-A1-A0SM"
+}

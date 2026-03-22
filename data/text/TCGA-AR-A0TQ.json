@@ -1,0 +1,31 @@
+{
+  "diagnosis": "10b-0-3 we TEGAAR-AOT@- tA PR Redacted Carcnema impablnstiny duct, nds $504/ a, Breast, right, simple mastectomy: Infiltrating ductal carcinoma, Nottingham grade III (of III) {tubules 3/3, nuclei 3/3, mitoses 2/3; Nottingham score 8/9), forming a single mass (7.2 x 4.5 x 3.4 em) located in the upper inner and upper central quadrant of the breast (AJC pT2]. Angiolymphatic invasion is absent. The non-neoplastic breast parenchyma shows nonproliferative fibrocystic changes. Calcifications are present in malignant ducts. Biopsy site changes are present. lll surgical resection margins, including the deep margin, are negative for tumor (minimum tumor free margin, 7.0 cm, deep margin). Breast, right, supranumerary nipple excision: Intradermal nevus (0.6 em in greatest dimension), Lymph nodes, right axillary, dissection: Multiple (2 of 9) right axillary lymph nodes are positive for metastatic carcinoma. The largest lymph node measures 1.4 cm. No extranodal extension identified. Lymph nodes, highest right axillary, dissection: Multiple (6) highest right axillary lymph nodes are negative for tumor. Breast, left, simple mastectomy: Nonproliferative fibrocystie changes. Her-2/NEU has been ordered on paraffin-embedded tissue. 2",
+  "microscopic": "",
+  "margins": ", including the deep margin, are negative for tumor (minimum tumor free margin, 7.0 cm, deep margin). Breast, right, supranumerary nipple excision: Intradermal nevus (0.6 em in greatest dimension), Lymph nodes, right axillary, dissection: Multiple (2 of 9) right axillary lymph nodes are positive for metastatic carcinoma. The largest lymph node measures 1.4 cm. No extranodal extension identified. Lymph nodes, highest right axillary, dissection: Multiple (6) highest right axillary lymph nodes are negative for tumor. Breast, left, simple mastectomy: Nonproliferative fibrocystie changes. Her-2/NEU has been ordered on paraffin-embedded tissue. 2",
+  "lymph_nodes": "s, right axillary, dissection: Multiple (2 of 9) right axillary lymph nodes are positive for metastatic carcinoma. The largest lymph node measures 1.4 cm. No extranodal extension identified. Lymph nodes, highest right axillary, dissection: Multiple (6) highest right axillary lymph nodes are negative for tumor. Breast, left, simple mastectomy: Nonproliferative fibrocystie changes. Her-2/NEU has been ordered on paraffin-embedded tissue. 2",
+  "ptnm": "",
+  "keywords": [
+    "breast",
+    "lymph nodes",
+    "axillary",
+    "margin",
+    "tumor",
+    "carcinoma",
+    "negative",
+    "mastectomy",
+    "infiltrating",
+    "ductal",
+    "grade iii",
+    "positive",
+    "metastatic",
+    "resection",
+    "margins",
+    "lymph node",
+    "pr",
+    "her-2",
+    "pt2",
+    "biopsy"
+  ],
+  "full": "10b-0-3 we TEGAAR-AOT@- tA PR Redacted Carcnema impablnstiny duct, nds $504/ a, Breast, right, simple mastectomy: Infiltrating ductal carcinoma, Nottingham grade III (of III) {tubules 3/3, nuclei 3/3, mitoses 2/3; Nottingham score 8/9), forming a single mass (7.2 x 4.5 x 3.4 em) located in the upper inner and upper central quadrant of the breast (AJC pT2]. Angiolymphatic invasion is absent. The non-neoplastic breast parenchyma shows nonproliferative fibrocystic changes. Calcifications are present in malignant ducts. Biopsy site changes are present. lll surgical resection margins, including the deep margin, are negative for tumor (minimum tumor free margin, 7.0 cm, deep margin). Breast, right, supranumerary nipple excision: Intradermal nevus (0.6 em in greatest dimension), Lymph nodes, right axillary, dissection: Multiple (2 of 9) right axillary lymph nodes are positive for metastatic carcinoma. The largest lymph node measures 1.4 cm. No extranodal extension identified. Lymph nodes, highest right axillary, dissection: Multiple (6) highest right axillary lymph nodes are negative for tumor. Breast, left, simple mastectomy: Nonproliferative fibrocystie changes. Her-2/NEU has been ordered on paraffin-embedded tissue. 2",
+  "case_id": "TCGA-AR-A0TQ"
+}

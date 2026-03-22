@@ -1,0 +1,9 @@
+{
+  "rouge1": 0.2761,
+  "rouge2": 0.0825,
+  "rougeL": 0.1894,
+  "keyword_coverage": 0.5421,
+  "keyword_coverage_min": 0.1667,
+  "keyword_coverage_max": 0.75,
+  "bertscore_available": false
+}

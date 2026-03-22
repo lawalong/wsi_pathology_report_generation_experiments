@@ -1,0 +1,31 @@
+{
+  "diagnosis": "RIGHT BREAST CANCER",
+  "microscopic": "EXAM MicRoScoPiC EXAMINATION CONDUCTED BY PATHOLOGIST CONFIRMS FINAL DIAGNOSIS. @ Patient name SURGICAL REPORT",
+  "margins": ",ETC. - RIGHT BREAST LUMPECTOMY B. AXILLARY - CONTENTS C. MARGINS - RIGHT BREAST FS DIAGNOSIS e A. RIGHT BREAST LUMP (GROSS MARGINS) wto:7546a7H 74-4 sg -rrenuey TUMOR EXTENDS TO SUPERIOR MARGIN, NEAR SKIN. TCGA-A2-A0T3 Redacted OTT (reece rte: i ity a oe 10 TE",
+  "lymph_nodes": "CONTENTS C. MARGINS - RIGHT BREAST FS DIAGNOSIS e A. RIGHT BREAST LUMP (GROSS MARGINS) wto:7546a7H 74-4 sg -rrenuey TUMOR EXTENDS TO SUPERIOR MARGIN, NEAR SKIN. TCGA-A2-A0T3 Redacted OTT (reece rte: i ity a oe 10 TE",
+  "ptnm": "",
+  "keywords": [
+    "breast",
+    "margin",
+    "margins",
+    "ductal",
+    "carcinoma",
+    "invasive",
+    "axillary",
+    "tumor",
+    "mass",
+    "0.1 cm",
+    "positive",
+    "negative",
+    "metastatic",
+    "lymph nodes",
+    "excision",
+    "lumpectomy",
+    "7.5 cm",
+    "3.cm",
+    "11cm",
+    "3.5 cm"
+  ],
+  "full": "_ > ie lone, ipetinaboey duchel, Wes psoo/s ae ) Sh. buat bes 0509 f2iu be SURGICAL REPORT Name: Pathology Number: Sex F Date Collected: * Dos: Date Received: Location: - M.R. Number Doctor: Account Number PRE-OPERATIVE DIAGNOSIS RIGHT BREAST CANCER POST-OPERATIVE DIAGNOSIS RIGHT BREAST CANCER, PROCEDURE FIGHT BREAST WMPECTONY WITH FULL AXLLARY NODE DSEECTIN A. BREAST EXCISION, NEEDLE LOC,SIMPLE,MARGINS,ETC. - RIGHT BREAST LUMPECTOMY B. AXILLARY - CONTENTS C. MARGINS - RIGHT BREAST FS DIAGNOSIS e A. RIGHT BREAST LUMP (GROSS MARGINS) wto:7546a7H 74-4 sg -rrenuey TUMOR EXTENDS TO SUPERIOR MARGIN, NEAR SKIN. TCGA-A2-A0T3 Redacted OTT (reece rte: i ity a oe 10 TE FINAL DIAGNOSIS: A. RIGHT BREAST LUMP NEEDLE LOC POORLY DIFFERENTIATED INVASIVE DUCTAL CARCINOMA, 7.5 CM. IN GREATEST DIMENSION, EXTENDING TO SUPERIOR INKED SURGICAL MARGIN. 'SCARFF-BLOOM-RICHARDSON BREAST CANCER HISTOLOGIC SCORE, 9 (+363). HIGH NUCLEAR GRADE DUCTAL CARCINOMA IN-SITU (DCIS) COMPONENT WITH CENTRAL NECROSIS AND CALCIFICATION EXTENDS WITHIN LESS THAN 0.1 CM. OF THE SUPERIOR SURGICAL MARGIN. REMAINING DESIGNATED SURGICAL MARGINS ARE FREE OF TUMOR. PATHOLOGIC TNM STAGE: 3 N3 MX, STAGE llIC, G3, INVASIVE DUCTAL CARCINOMA. PQR! CATEGORY Il: 3260F. B AXILLARY CONTENTS - TEN (10) REGIONAL LYMPH NODES POSITIVE FOR METASTATIC INVASIVE e Pationt Name Pathology Number: SURGICAL REPORT Page 1 of 2 Patient Name Pathology Number: ~ ~~ @ DUCTAL CARCINOMA. C. RIGHT BREAST MARGINS - SKIN AND ATTACHED FIBROFATTY BREAST TISSUE, NEGATIVE FOR MALIGNANCY. Diagnosed by: ( Reviawad and alerteeniaty sinned Out BY: GROSS DESCRIPTION The specimen is received in three separate containers labele ynated A, B, A. Thecontalner Is received fresh unfixed labeled right breast lump and consists of a 67 gm. ovoid ses of apparent fatty and fibrous-encased tissue which is 7.5 7.5 x 3.cm. in greatest overal! Gimension The attached skin ellipse Is 4 x 11cm. There is a single short suture indicating superior margin inked with black dye, ",
+  "case_id": "TCGA-A2-A0T1"
+}

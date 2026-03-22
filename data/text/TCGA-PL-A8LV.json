@@ -1,0 +1,19 @@
+{
+  "diagnosis": "Medullary Adenocarcinoma 7. COMMENTS: Nuclear score:3, Pathological TNM stage: pT2 Dr Reporting Pathologist Name Signature Date",
+  "microscopic": "ASSESSMENT",
+  "margins": "",
+  "lymph_nodes": "s. 2, MICROSCOPIC ASSESSMENT",
+  "ptnm": "",
+  "keywords": [
+    "invasive",
+    "carcinoma",
+    "adenocarcinoma",
+    "margin",
+    "resection",
+    "lymph nodes",
+    "pt2",
+    "breast"
+  ],
+  "full": "Age: Sex: Female Tissue Source Site (TSS): ogee 24 B62 566 at IN 0 IDO . Carecnend, ual Clas gsiols Suk bimatNOS 2509 ge fia Date of Tumour Procurement: 1, GROSS ASSESSMENT: Cut section showed a variegated tumour. 5x3x2cm, No lymph nodes. 2, MICROSCOPIC ASSESSMENT Microscopic deseri jon: Section shows a necrotic and invasive tumour growing in trabecular, cords, syncytium, solid nests and trabecular patterns. It cells having pleomorphic hyperchromatic nuclei and amphophilic cytoplasm, The stroma is desmoplastic containing similar tumour cells and aggregates of lymphocytes composed of large 3. Tumour Type: Malignant 4, Tumour Site: Right Breast 5. Distance of invasive carcinoma to closest margin: 3mm Which mai in? Deep resection TSS Unique patient ID: 6. HISTOLOGICAL DIAGNOSIS: Medullary Adenocarcinoma 7. COMMENTS: Nuclear score:3, Pathological TNM stage: pT2 Dr Reporting Pathologist Name Signature Date",
+  "case_id": "TCGA-PL-A8LV"
+}

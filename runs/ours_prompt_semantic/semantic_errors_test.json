@@ -1,0 +1,113 @@
+{
+  "experiment": "ours_prompt_semantic",
+  "split": "test",
+  "n_cases": 39,
+  "n_concepts": 12,
+  "global": {
+    "match_rate": 0.5079,
+    "missed_rate": 0.4921,
+    "wrong_rate": 0.0919,
+    "total_match": 96,
+    "total_missed": 93,
+    "total_wrong": 43
+  },
+  "per_concept": {
+    "carcinoma": {
+      "match": 9,
+      "missed": 13,
+      "wrong": 8,
+      "absent": 9,
+      "missed_rate": 0.5909,
+      "wrong_rate": 0.2051
+    },
+    "benign": {
+      "match": 0,
+      "missed": 1,
+      "wrong": 1,
+      "absent": 37,
+      "missed_rate": 1.0,
+      "wrong_rate": 0.0256
+    },
+    "negative": {
+      "match": 1,
+      "missed": 10,
+      "wrong": 6,
+      "absent": 22,
+      "missed_rate": 0.9091,
+      "wrong_rate": 0.1538
+    },
+    "positive": {
+      "match": 2,
+      "missed": 4,
+      "wrong": 4,
+      "absent": 29,
+      "missed_rate": 0.6667,
+      "wrong_rate": 0.1026
+    },
+    "metastasis": {
+      "match": 5,
+      "missed": 11,
+      "wrong": 3,
+      "absent": 20,
+      "missed_rate": 0.6875,
+      "wrong_rate": 0.0769
+    },
+    "invasive": {
+      "match": 5,
+      "missed": 16,
+      "wrong": 5,
+      "absent": 13,
+      "missed_rate": 0.7619,
+      "wrong_rate": 0.1282
+    },
+    "ductal": {
+      "match": 4,
+      "missed": 11,
+      "wrong": 9,
+      "absent": 15,
+      "missed_rate": 0.7333,
+      "wrong_rate": 0.2308
+    },
+    "lobular": {
+      "match": 0,
+      "missed": 4,
+      "wrong": 2,
+      "absent": 33,
+      "missed_rate": 1.0,
+      "wrong_rate": 0.0513
+    },
+    "grade": {
+      "match": 2,
+      "missed": 7,
+      "wrong": 3,
+      "absent": 27,
+      "missed_rate": 0.7778,
+      "wrong_rate": 0.0769
+    },
+    "in_situ": {
+      "match": 0,
+      "missed": 6,
+      "wrong": 2,
+      "absent": 31,
+      "missed_rate": 1.0,
+      "wrong_rate": 0.0513
+    },
+    "lymph_node": {
+      "match": 36,
+      "missed": 3,
+      "wrong": 0,
+      "absent": 0,
+      "missed_rate": 0.0769,
+      "wrong_rate": 0.0
+    },
+    "margin": {
+      "match": 32,
+      "missed": 7,
+      "wrong": 0,
+      "absent": 0,
+      "missed_rate": 0.1795,
+      "wrong_rate": 0.0
+    }
+  },
+  "label": "Ours (T5+Vis+Sem)"
+}

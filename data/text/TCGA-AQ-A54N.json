@@ -1,0 +1,31 @@
+{
+  "diagnosis": "EY EAE A: Breast, left, partial mastectomy _ [llllll/IMIIMIIII}",
+  "microscopic": "",
+  "margins": "Invasive component: Negative; 0.3 cm to anterior margin (see comment), all",
+  "lymph_nodes": "lymph nodes:",
+  "ptnm": "",
+  "keywords": [
+    "margin",
+    "breast",
+    "tumor",
+    "mass",
+    "carcinoma",
+    "lymph node",
+    "mastectomy",
+    "biopsy",
+    "invasive",
+    "negative",
+    "axillary",
+    "sentinel",
+    "0.3 cm",
+    "0.8 cm",
+    "ductal",
+    "metastasis",
+    "margins",
+    "lymph nodes",
+    "lymph\n\nnode",
+    "pr"
+  ],
+  "full": "SURGICAL PATHOLOGY REVISED REPORT Case Number 0. acac-s26Fan06e342 ASAN-O1A-PR Redacted a to: s0F08 Tosa: 1M fh { Diagnosis: EY EAE A: Breast, left, partial mastectomy _ [llllll/IMIIMIIII} Tumor type: Invasive ductal carcinoma Nottingham combined histologic grade: 3 Tubule formation score: 3 Nuclear pleomorphism score: 3 Mitotic count score: 3 Ledo-3 Focality of tumor: Unifocal Caremoma, Zpbl ta Key Ducfar Tumor size (greatest dimension): 4.9 cm g 3 Orle L Breast NOS Lymphovascular invasion: Not identified 050.9 In Situ Component: Not identified Nipple involvement: Not applicable Skin involvement: Not identified Margin status: Invasive component: Negative; 0.3 cm to anterior margin (see comment), all other margins widely free of tumor In Situ component: Not applicable Axillary lymph nodes: Total number with metastasis: 0 Total number examined: 1 Microcalcifications: Not identified Other findings: Duct ectasia AJCC PATHOLOGIC TNM STAGE: pT2 pNO Note: This pathologic stage assessment is based on information available at the time of this report, and is subject to change pending clinical review and additional information. B: Lymph node, sentinel left breast, removal = No carcinoma identified in one lymph node (0/1) Cytokeratin immunostain (AE1/AE3) negative : Breast, left lateral margin, stitch new margin, removal No atypia or carcinoma identified a : Breast, left medial margin, stitch new margin, removal No atypia or carcinoma identified Comment : The anterior margin represented in block A3 has ink within a somewhat fragmented tissue section that is 0.3 cm from tumor. The true margin may be closer to the gross measurement of 0.8 cm, Clinical correlation is advised. Clinical History: with left breast cancer. Gross Description: Received are four formalin-filled containers. Container A is additionally labeled left breast cancer, short stitch/superior, long stitch/lateral. Specimen fixation: formalin Time in fixative: 8.5 hours Type of mastectomy: left partial mastectomy W",
+  "case_id": "TCGA-AQ-A54N"
+}

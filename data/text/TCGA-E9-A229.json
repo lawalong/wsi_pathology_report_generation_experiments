@@ -1,0 +1,19 @@
+{
+  "diagnosis": "1b-0-3 Carerioma, vigiltialing cluct, wes F50Y/3 / Sik + breast wos 650.9 df, ? v Procurement Date: Laterality:Right, lower inner quadrant Path Report: BREAST TISSUE CHECKLIST Specimen type: Mastectomy Specimen size: Not specified Tumor site: Breast Tumor size: 2x1.5x 2m Grossly evident lesion: Yes Histologic type: infiltrating ductal carcinoma J Histologic grade: Moderately differentiated Tumor extent: Not specified Lymph nodes: Not specified a Extracapsular invasion of the lymph nodes: Not specified Margins: Not specified Nottingham Histologic Score a ue Tubule formation: Not specified von se CE",
+  "microscopic": "",
+  "margins": "Not specified",
+  "lymph_nodes": "s: Not specified",
+  "ptnm": "",
+  "keywords": [
+    "breast",
+    "tumor",
+    "lymph nodes",
+    "infiltrating",
+    "ductal",
+    "carcinoma",
+    "margins",
+    "mastectomy"
+  ],
+  "full": "1b-0-3 Carerioma, vigiltialing cluct, wes F50Y/3 / Sik + breast wos 650.9 df, ? v Procurement Date: Laterality:Right, lower inner quadrant Path Report: BREAST TISSUE CHECKLIST Specimen type: Mastectomy Specimen size: Not specified Tumor site: Breast Tumor size: 2x1.5x 2m Grossly evident lesion: Yes Histologic type: infiltrating ductal carcinoma J Histologic grade: Moderately differentiated Tumor extent: Not specified Lymph nodes: Not specified a Extracapsular invasion of the lymph nodes: Not specified Margins: Not specified Nottingham Histologic Score a ue Tubule formation: Not specified von se CE Mitotic count (25x): Not specified Mitotic count (40x): Not specified Total Nottingham Score: Score cannot be determined Evidence of neo-adjuvant treatment: Not specified Additional pathologic findings: Not specified Comments: None",
+  "case_id": "TCGA-E9-A229"
+}

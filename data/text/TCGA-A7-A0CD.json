@@ -1,0 +1,31 @@
+{
+  "diagnosis": "A) Lymph node, sentinel node 1, excision - Negative for metastatic carcinoma (0/1). B) Lymph node, sentinel node 2, excision - Negative for metastatic carcinoma (0/1). REPORT REVISED ON AT GROSS DESCRIPTION A, Received fresh labeled sentinel node #1\" is a lymph node that measures 1.5 cm in dimension. The lymph node is entirely frozen. B. Received fresh labeled sentinel lymph node #2\" is a lymph node that measures 1 1 -- n dimension. The lymph node is entirely frozen. C. The specimen is received fresh labeled \"left breast mass and consists of a yellow piece of soft tissue measuring 10 x 7.5 x 5.4 cm. The specimen has a long and a short suture on it. There is an overlying DESCRIPTION white ellipse of skin measuring 6.5 x 1.5 cm. which has a central longitudinal wound in it. The external surface of the specimen inked as indicated below. Superior yellow, inferior orange, anterior red, lateral blue, medial green, inferior black. There is a central firm tumor measuring 1.5 cm. in greatest cross sectional dimension. A portion of the central tumor is taken for research purposes. Sections after fixation. RS15. +RRI1 D. Received in formalin labeled \"#6\" and consists of a yellow and tan piece of soft tissue measuring 3 x 2 x 0.7 om. It is not completely clear which side of the specimen is the external side. The external surface of the specimen is inked. Sections after fixation. RS4. E. Received in formalin labeled \"#12\" and consists of a yellow piece of soft tissue measuring 3 x 2.5 x lcm. The external surface of the specimen is inked. RS4. F. Received in formalin labeled \"9\" and consists of a yellow piece of soft tissue measuring 3 x 1.5 x lcm. The external surface of the specimen is inked. Sections after fixation. RS2. G. Received in formalin labeled \"#3\" and consists of a piece of yellow soft tissue measuring 3.2 x 1.5 x 1 cm. The external surface of specimen is inked. Sections after fixation. Rs3. REPORT REVISED ON ar MICROSCOPIC DESCRIPTION A. A single lymph node is negative for malignancy. B. A single lymph node is negative for malignancy. [At the request of some staff oncologists and in keeping with the opinion of some experts in breast pathology, immunchistochemical stains for keratin were not used on the sentinel lymph node sections in this case. These stains can be obtained if desired. Our paraffin blocks are retained for 10 years. (Schwartz GF et al. Cancer 94(10):2542, 2002)}. Cc. Invasive carcinoma",
+  "microscopic": "A. A single lymph node is negative for malignancy. B. A single lymph node is negative for malignancy. [At the request of some staff oncologists and in keeping with the opinion of some experts in breast pathology, immunchistochemical stains for keratin were not used on the sentinel lymph node sections in this case. These stains can be obtained if desired. Our paraffin blocks are retained for 10 years. (Schwartz GF et al. Cancer 94(10):2542, 2002)}. Cc. Invasive carcinoma",
+  "margins": "Negative for malignancy. Carcinoma is 1 cm. from the nearest inked margin.",
+  "lymph_nodes": "#1 B. Sentinel node #2 CL Lett breast mass D. Gotclock B) 12 o'clock FL 9 o'clock G._ 3 oteleck",
+  "ptnm": "",
+  "keywords": [
+    "lymph node",
+    "negative",
+    "sentinel",
+    "carcinoma",
+    "breast",
+    "biopsy",
+    "tumor",
+    "1.5 cm",
+    "mass",
+    "infiltrating",
+    "ductal",
+    "metastatic",
+    "lymph\nnode",
+    "excision",
+    "1 cm",
+    "invasive",
+    "grade 2",
+    "margins",
+    "margin",
+    "5.4\ncm"
+  ],
+  "full": "TE ARE ACD ALCS east saci th-0-3 Tit nh a amaii 106 nuh da aus toe . bf Lt Nos 00/3 II i UE sPEcrEN Ste: brcsot, nes C504 hd fy A. Sentinel node #1 B. Sentinel node #2 CL Lett breast mass D. Gotclock B) 12 o'clock FL 9 o'clock G._ 3 oteleck REPORT REVISED oN at CLINICAL NOTES HISTORY: Left breast ca at 10:00. Multifocal 1 cm nipple. REPORT REVISED ON aT 1 . and $ cm. from FROZEN SECTION DIAGNOSIS A) Lymph node, sentinel node 1, excision - Negative for metastatic carcinoma (0/1). B) Lymph node, sentinel node 2, excision - Negative for metastatic carcinoma (0/1). REPORT REVISED ON AT GROSS DESCRIPTION A, Received fresh labeled sentinel node #1\" is a lymph node that measures 1.5 cm in dimension. The lymph node is entirely frozen. B. Received fresh labeled sentinel lymph node #2\" is a lymph node that measures 1 1 -- n dimension. The lymph node is entirely frozen. C. The specimen is received fresh labeled \"left breast mass and consists of a yellow piece of soft tissue measuring 10 x 7.5 x 5.4 cm. The specimen has a long and a short suture on it. There is an overlying DESCRIPTION white ellipse of skin measuring 6.5 x 1.5 cm. which has a central longitudinal wound in it. The external surface of the specimen inked as indicated below. Superior yellow, inferior orange, anterior red, lateral blue, medial green, inferior black. There is a central firm tumor measuring 1.5 cm. in greatest cross sectional dimension. A portion of the central tumor is taken for research purposes. Sections after fixation. RS15. +RRI1 D. Received in formalin labeled \"#6\" and consists of a yellow and tan piece of soft tissue measuring 3 x 2 x 0.7 om. It is not completely clear which side of the specimen is the external side. The external surface of the specimen is inked. Sections after fixation. RS4. E. Received in formalin labeled \"#12\" and consists of a yellow piece of soft tissue measuring 3 x 2.5 x lcm. The external surface of the specimen is inked. RS4. F. Received in formalin labeled \"9\" and cons",
+  "case_id": "TCGA-A7-A0CD"
+}

@@ -1,0 +1,21 @@
+{
+  "diagnosis": "> C504 inplirating duct nos 9504/3 Site, bret Nos Caucenrme, /eb-0-3 BREAST TISSUE CHECKLIST ' | Specimen type: Radical mastectomy Specimen size: Not specified | [Tumor site: Breast [Tumor size: 2.3 x 2.3 x 2m \\Grossly evident lesion: Yes Histologic type: Infitrating ductal carcinoma 'Histologic grade: Poorly differentiated [Tumor extent: Not specified Lymph nodes: 2/10 positive for metastasis (Axillary 2/10) | [Extracapsular invasion of the lymph nodes: Not specified [Margins: Not specified Nottingham Histologic Score",
+  "microscopic": "",
+  "margins": "Not specified Nottingham Histologic Score | Tubule formation: Not specified",
+  "lymph_nodes": "s: 2/10 positive for metastasis (Axillary 2/10) | [Extracapsular invasion of the lymph nodes: Not specified [Margins: Not specified Nottingham Histologic Score | Tubule formation: Not specified",
+  "ptnm": "",
+  "keywords": [
+    "tumor",
+    "lymph nodes",
+    "breast",
+    "ductal",
+    "carcinoma",
+    "positive",
+    "metastasis",
+    "margins",
+    "axillary",
+    "mastectomy"
+  ],
+  "full": "> C504 inplirating duct nos 9504/3 Site, bret Nos Caucenrme, /eb-0-3 BREAST TISSUE CHECKLIST ' | Specimen type: Radical mastectomy Specimen size: Not specified | [Tumor site: Breast [Tumor size: 2.3 x 2.3 x 2m \\Grossly evident lesion: Yes Histologic type: Infitrating ductal carcinoma 'Histologic grade: Poorly differentiated [Tumor extent: Not specified Lymph nodes: 2/10 positive for metastasis (Axillary 2/10) | [Extracapsular invasion of the lymph nodes: Not specified [Margins: Not specified Nottingham Histologic Score | Tubule formation: Not specified INuclear pleomorphism: Not specified i [Mitotic count (25x): Not specified | Mitotic count (40x): Not specified | [Total Nottingham Score: Score cannot be determined [Evidence of neo-adjuvant treatment: Not specified |Additional pathologic findings: Not specified Left, upper outer quadrant | Li comments;_Nene. Redacted 750 fl |",
+  "case_id": "TCGA-E9-A1N6"
+}

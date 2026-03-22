@@ -1,0 +1,17 @@
+{
+  "diagnosis": "Procurement Date Laterality:Left Path Report: BREAST TISSUE CHECKLIST Specimen type: Mastectomy Specimen size: Not specified Tumor site: Breast Tumor size: 2x2.5 x2em Grossly evident lesion: Yes Histologic type: Medullary carcinoma Histologic grade: Moderately differentiated Tumor extent: Not specified Lymph nodes: Not specified Extracapsular invasion of the lymph nodes: Not specified Margins: Not specified Nottingham Histologic Score Tubule formation: Not specified Nuclear pleomorphism: Not specified Mitotic count (25x): Not specified M ic count (40x): Not specified Total Nottingham Score: Score cannot be determined",
+  "microscopic": "",
+  "margins": "Not specified",
+  "lymph_nodes": "s: Not specified",
+  "ptnm": "",
+  "keywords": [
+    "breast",
+    "tumor",
+    "lymph nodes",
+    "carcinoma",
+    "margins",
+    "mastectomy"
+  ],
+  "full": "Procurement Date Laterality:Left Path Report: BREAST TISSUE CHECKLIST Specimen type: Mastectomy Specimen size: Not specified Tumor site: Breast Tumor size: 2x2.5 x2em Grossly evident lesion: Yes Histologic type: Medullary carcinoma Histologic grade: Moderately differentiated Tumor extent: Not specified Lymph nodes: Not specified Extracapsular invasion of the lymph nodes: Not specified Margins: Not specified Nottingham Histologic Score Tubule formation: Not specified Nuclear pleomorphism: Not specified Mitotic count (25x): Not specified M ic count (40x): Not specified Total Nottingham Score: Score cannot be determined Evidence of neo-adjuvant treatment: Not specified Additional pathologic findings: Not specified Comments: None Tmt m1 I mM tu MI He woe noma medullary, NOS carct ' <slo\\2 Site: Breast, NOS CP4",
+  "case_id": "TCGA-E9-A3QA"
+}

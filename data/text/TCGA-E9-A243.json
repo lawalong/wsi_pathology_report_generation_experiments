@@ -1,0 +1,22 @@
+{
+  "diagnosis": "/cb-0-3 Caveinoma, ripttrating tact, ses 9500/3 ee re re ocm, TSSH Procurement Date Laterality:Right, upper inner quadrant Path Report: BREAST TISSUE CHECKLIST Specimen type: Lumpectomy Specimen size: Not specified Tumor site: Breast Tumor size: 1.5x0x2 em Grossly evident lesion: Yes Histologic type: Infiltrating ductal carcinoma Histologic grade: Poorly differentiated Tumor extent: Not specified Lymph nodes: 0/10 positive for metastasis (Axillary 0/10) Extracapsular invasion of the lymph nodes: Not specified Margins: Uninvolved Nottingham Histologic Score Tubule formation: Not specified Nuclear pleomorphism: Not specified",
+  "microscopic": "",
+  "margins": "Uninvolved",
+  "lymph_nodes": "s: 0/10 positive for metastasis (Axillary 0/10)",
+  "ptnm": "",
+  "keywords": [
+    "tumor",
+    "lymph nodes",
+    "breast",
+    "infiltrating",
+    "ductal",
+    "carcinoma",
+    "positive",
+    "metastasis",
+    "margins",
+    "axillary",
+    "lumpectomy"
+  ],
+  "full": "/cb-0-3 Caveinoma, ripttrating tact, ses 9500/3 ee re re ocm, TSSH Procurement Date Laterality:Right, upper inner quadrant Path Report: BREAST TISSUE CHECKLIST Specimen type: Lumpectomy Specimen size: Not specified Tumor site: Breast Tumor size: 1.5x0x2 em Grossly evident lesion: Yes Histologic type: Infiltrating ductal carcinoma Histologic grade: Poorly differentiated Tumor extent: Not specified Lymph nodes: 0/10 positive for metastasis (Axillary 0/10) Extracapsular invasion of the lymph nodes: Not specified Margins: Uninvolved Nottingham Histologic Score Tubule formation: Not specified Nuclear pleomorphism: Not specified Mitotic count (25x): Not specified Mitotic count (40x): Not specified Total Nottingham Score: Score cannot be determined Evidence of neo-adjuvant treatment: Not specified Adi inal pathologic findings: Not specified so: SER ane OEE wma ui i ie Redacted I int TC iti! Comments: None",
+  "case_id": "TCGA-E9-A243"
+}

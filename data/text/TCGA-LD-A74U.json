@@ -1,0 +1,31 @@
+{
+  "diagnosis": "zadioS 1. RIGHT BREAST, PARTIAL MASTECTOMY: INVASIVE LOBULAR CARCINOMA fad plea: 5243",
+  "microscopic": "",
+  "margins": "MARGINS (Invasive lobular): Negative <0.1mm superior margin (1P, highlighted by CK7 immunostain); 0.2mm medial margin (EE) and 1mm posterlor margin (1N); other margins >3mm.",
+  "lymph_nodes": "SAMPLING: _Poaltive (11/12), largest 45mm; with extranodal Involvement); s8e specimen #2",
+  "ptnm": "",
+  "keywords": [
+    "margin",
+    "lymph node",
+    "lobular",
+    "tumor",
+    "margins",
+    "invasive",
+    "carcinoma",
+    "lymph nodes",
+    "breast",
+    "mass",
+    "negative",
+    "axillary",
+    "mastectomy",
+    "4.5 cm",
+    "ductal",
+    "metastatic",
+    "resection",
+    "pr",
+    "er",
+    "lumpectomy"
+  ],
+  "full": "wo c464s304-0080-4428 TCGA-LO-A74U-O1A-PR Wh a | HH MM In F3-6SAEEDIIO SAE Surgical Pathology Report Dn a = . a be DATE OBTAINED: = DATE RECEIVED: EE DATE REPORTED: cc: DIAGNOSIS zadioS 1. RIGHT BREAST, PARTIAL MASTECTOMY: INVASIVE LOBULAR CARCINOMA fad plea: 5243 SIZE (INVASIVE): Approximately 70 mm; see comment fe LATERALITY: Right Ske BF Bunat ns 0504 TUMOR FOCALITY: Unitocal LESIONAL SITE: 9:00 (according to operative report) EB Yevemd-mudbine HISTOLocic TYPE: {nvasive lobular carcinoma, classical type, focal pleomorphic type CSOF NUCLEAR GRADE: {of i classical type) and iil tI (pleomorphic type) foals HISTOLOGIC GRAD! N/A (invasive lobular carcinoma) wre IN-SITU COMPONENT: Not present LYMPH NODE SAMPLING: _Poaltive (11/12), largest 45mm; with extranodal Involvement); s8e specimen #2 AJCC CATEGORIES: Stage iC (assuming cMO status) pTNM: ry pNae STNM: er ent emo INTEGRITYIORIENTATION: intact specimen with designated margins MARGINS (Invasive lobular): Negative <0.1mm superior margin (1P, highlighted by CK7 immunostain); 0.2mm medial margin (EE) and 1mm posterlor margin (1N); other margins >3mm. LYMPHOVASCULAR INVASION: Focal suspleious for LVI MICROCALCIFICATIONS: Not identified NIPPLE/SKIN: (i applicable) _ _Negative skin SKELETAL MUSCLE: Not present OTHER: Focal atypical lobular hyperplasia, sclerosing adenosis, usual ductal hyperplasia, apocrine metaplasia and prior blopsy site changes 2. RIGHT AXILLARY NODE CONTENTS, DISSECTION: ELEVEN OUT OF TWELVE LYMPH NODES TOTALLY REPLACED BY METASTATIC LOBULAR CARCINOMA (11/12), LARGEST TUMOR 4.5 CM, EXTRANODAL EXTENSION PRESENT; ADDITIONAL INVASIVE LOBULAR CARCINOMA WITHIN THE FAT (ABOUT 2CM). 3, OMENTUM, RESECTION: ADIPOSE TISSUE; NEGATIVE FOR TUMOR. Electronically Signed Out\"** s COMMENT Tumor grossly is 5.3 cm. in the axilary contents (#2), sizeable tumor mass within the fats also present in multiple blocks, which most likely represents a direct extension trom the lumpectomy, and thus the tumor size is estimated to ",
+  "case_id": "TCGA-LD-A74U"
+}

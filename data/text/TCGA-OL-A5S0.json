@@ -1,0 +1,31 @@
+{
+  "diagnosis": "A. Breast, right, modified radical mastectomy: = Invasive ductal carcinoma, grade I/II, .0 cm in greatest dimension, present 1.0 mm from posterior inked surgical margin, other margins widely free (see pathologic parameters and comment below) - Ductal carcinoma in-situ, high grade, solid type with associated central necrosis and calcifications, surgical margins negative ~ Previous biopsy site identified = Metastatic carcinoma involving two of twelve lymph nodes (2/12) B. Breast, right, deep margin re-excision: - Skeletal muscle and fibroadipose tissue, negative for carcinoma C. Breast, right additional tissue under superiomedial skin flap, excision: ~ Breast and fibroadipose tissue, negative for carcinoma D. Skin, right chest wall at corner of incision, excision: - Skin and fibroadipose tissue, negative for carcinoma Ztd6-3",
+  "microscopic": "",
+  "margins": "widely free (see pathologic parameters and comment below) - Ductal carcinoma in-situ, high grade, solid type with associated central necrosis and calcifications, surgical margins negative ~ Previous biopsy site identified = Metastatic carcinoma involving two of twelve lymph nodes (2/12) B. Breast, right, deep margin re-excision: - Skeletal muscle and fibroadipose tissue, negative for carcinoma C. Breast, right additional tissue under superiomedial skin flap, excision: ~ Breast and fibroadipose tissue, negative for carcinoma D. Skin, right chest wall at corner of incision, excision: - Skin and fibroadipose tissue, negative for carcinoma Ztd6-3",
+  "lymph_nodes": "s (2/12) B. Breast, right, deep margin re-excision: - Skeletal muscle and fibroadipose tissue, negative for carcinoma C. Breast, right additional tissue under superiomedial skin flap, excision: ~ Breast and fibroadipose tissue, negative for carcinoma D. Skin, right chest wall at corner of incision, excision: - Skin and fibroadipose tissue, negative for carcinoma Ztd6-3",
+  "ptnm": "",
+  "keywords": [
+    "margin",
+    "carcinoma",
+    "breast",
+    "invasive",
+    "axillary",
+    "negative",
+    "mass",
+    "margins",
+    "lymph node",
+    "mastectomy",
+    "excision",
+    "tumor",
+    "ductal",
+    "metastatic",
+    "1.5 cm",
+    "lymph nodes",
+    "5.0 cm",
+    "1.1 cm",
+    "grade i",
+    "lymph\nnodes"
+  ],
+  "full": "alata FINAL PATHOLOGIC DIAGNOSIS A. Breast, right, modified radical mastectomy: = Invasive ductal carcinoma, grade I/II, .0 cm in greatest dimension, present 1.0 mm from posterior inked surgical margin, other margins widely free (see pathologic parameters and comment below) - Ductal carcinoma in-situ, high grade, solid type with associated central necrosis and calcifications, surgical margins negative ~ Previous biopsy site identified = Metastatic carcinoma involving two of twelve lymph nodes (2/12) B. Breast, right, deep margin re-excision: - Skeletal muscle and fibroadipose tissue, negative for carcinoma C. Breast, right additional tissue under superiomedial skin flap, excision: ~ Breast and fibroadipose tissue, negative for carcinoma D. Skin, right chest wall at corner of incision, excision: - Skin and fibroadipose tissue, negative for carcinoma Ztd6-3 Careinome-, Drbitinchiog Ducte| UOS 3560/3 site: PBreact NOS 050.9 oS ahiaft( a Breast Pathologic Parameters 1. Invasive carcinoma: A. Gross measurement: 5.0 cm 8B. Composite histologic (modified SBR) grade: I/II C. Associated intraductal carcinoma in situ (DCIS) - High grade, solid type with associated central necrosis and calcifications = Within main mass 2. Surgical margins: Free of tumor = DCIS 3.0 mm from closest margin (posterior) - Invasive carcinoma 1.0 mm from closest margin (posterior) on mastectomy, separately submitted deep margin re-excision (specimen 8) negative for carcinoma - Additional margins widely free 3. Blood vessel and lymphatic invasion: Present 4, Nipple: Uninvolved 5. Skin: Uninvolved 6. Skeletal muscle: Focally involved 7. Axillary lymph nodes: Metastatic carcinoma involving two of twelve lymph nodes (2/12) - Size of largest metastatic deposit: 1.1 cm - Extranodal extension: Present (2.0 mm) 8. Special studies , ER: /eak expression in 30% of invasive tumor nuclei - PR: No expression in invasive tumor nuclei - Ki-67: 50% proliferation rate - Her2/neu antigen (FISH): Amplified (ratio: 3.8) ",
+  "case_id": "TCGA-OL-A5S0"
+}

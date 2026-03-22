@@ -1,0 +1,31 @@
+{
+  "diagnosis": "** Amended Microscopic Breast Carcinoma Checklist (see below)** A. Lymph nodes, \"left sentinel lymph node #1,\" biopsy (including AFS2) - Metastatic carcinoma in one lymph node consistent with breast primary (1/1) - Metastatic deposit measures 6mm in greatest dimension - No extracapsular extension B. Lymph nodes, \"left sentinel lymph node #2,\" biopsy (including BFS1) - Two lymph nodes with no evidence of malignancy (0/2) C. Breast left, modified radical mastectomy - Invasive lobular carcinoma - Multifocal with largest tumor 3.2 cm in greatest dimension in upper outer quadrant; additional foci in retroareolar area and lower outer quadrant up to 1.1cm in greatest dimension - Histological grade = 2/3 (score: tubules 3 + nucleus 2 + mitoses 1 = 6/9) by criteria - Mitotic index = <1/hpf (low) - Margins negative for invasive carcinoma (nearest = 1.2 cm; location: deep margi ~ Lobular carcinoma in situ (LCIS) ~ LCIS comprises 5% of total carcinoma in specimen ~ Nuclear grade 1/3 by SBR criteria (low) - Margins negative for LCIS ~ Metastatic carcinoma present in one of fifteen lymph nodes (1/15) - Tumor deposit measures 4mm in greatest dimension, with no",
+  "microscopic": "Breast Carcinoma Checklist (see below)** A. Lymph nodes, \"left sentinel lymph node #1,\" biopsy (including AFS2) - Metastatic carcinoma in one lymph node consistent with breast primary (1/1) - Metastatic deposit measures 6mm in greatest dimension - No extracapsular extension B. Lymph nodes, \"left sentinel lymph node #2,\" biopsy (including BFS1) - Two lymph nodes with no evidence of malignancy (0/2) C. Breast left, modified radical mastectomy - Invasive lobular carcinoma - Multifocal with largest tumor 3.2 cm in greatest dimension in upper outer quadrant; additional foci in retroareolar area and lower outer quadrant up to 1.1cm in greatest dimension - Histological grade = 2/3 (score: tubules 3 + nucleus 2 + mitoses 1 = 6/9) by criteria - Mitotic index = <1/hpf (low) - Margins negative for invasive carcinoma (nearest = 1.2 cm; location: deep margi ~ Lobular carcinoma in situ (LCIS) ~ LCIS comprises 5% of total carcinoma in specimen ~ Nuclear grade 1/3 by SBR criteria (low) - Margins negative for LCIS ~ Metastatic carcinoma present in one of fifteen lymph nodes (1/15) - Tumor deposit measures 4mm in greatest dimension, with no",
+  "margins": "negative for invasive carcinoma (nearest = 1.2 cm; location: deep margi ~ Lobular carcinoma in situ (LCIS) ~ LCIS comprises 5% of total carcinoma in specimen ~ Nuclear grade 1/3 by SBR criteria (low) - Margins negative for LCIS ~ Metastatic carcinoma present in one of fifteen lymph nodes (1/15) - Tumor deposit measures 4mm in greatest dimension, with no",
+  "lymph_nodes": "#1 B: Left sentinel lymph node #2 C: Left breast with axillary lymph nodes Velyf = D: Right breast",
+  "ptnm": "",
+  "keywords": [
+    "carcinoma",
+    "lymph node",
+    "lymph nodes",
+    "breast",
+    "tumor",
+    "sentinel",
+    "mastectomy",
+    "mass",
+    "lobular",
+    "positive",
+    "metastatic",
+    "margins",
+    "axillary",
+    "biopsy",
+    "invasive",
+    "negative",
+    "er",
+    "2.5 cm",
+    "infiltrating",
+    "margin"
+  ],
+  "full": "saga ong scare TCGA-RS-ASIU-O1A-PR i\" CAMA wat SPECIMEN(S): (th-e-2 caveinorne, spl tnatng Iobabus, 04s S524) Sif: brest, wes 6504 A: Left sentinel lymph node #1 B: Left sentinel lymph node #2 C: Left breast with axillary lymph nodes Velyf = D: Right breast FINAL DIAGNOSIS: ** Amended Microscopic Breast Carcinoma Checklist (see below)** A. Lymph nodes, \"left sentinel lymph node #1,\" biopsy (including AFS2) - Metastatic carcinoma in one lymph node consistent with breast primary (1/1) - Metastatic deposit measures 6mm in greatest dimension - No extracapsular extension B. Lymph nodes, \"left sentinel lymph node #2,\" biopsy (including BFS1) - Two lymph nodes with no evidence of malignancy (0/2) C. Breast left, modified radical mastectomy - Invasive lobular carcinoma - Multifocal with largest tumor 3.2 cm in greatest dimension in upper outer quadrant; additional foci in retroareolar area and lower outer quadrant up to 1.1cm in greatest dimension - Histological grade = 2/3 (score: tubules 3 + nucleus 2 + mitoses 1 = 6/9) by criteria - Mitotic index = <1/hpf (low) - Margins negative for invasive carcinoma (nearest = 1.2 cm; location: deep margi ~ Lobular carcinoma in situ (LCIS) ~ LCIS comprises 5% of total carcinoma in specimen ~ Nuclear grade 1/3 by SBR criteria (low) - Margins negative for LCIS ~ Metastatic carcinoma present in one of fifteen lymph nodes (1/15) - Tumor deposit measures 4mm in greatest dimension, with no extracapsular extension - Nevus cell aggregate also identified D. Breast, right, prophylactic simple mastectomy - Fibrocystic changes = Columnar cell hyperplasia - Usual ductal hyperplasia = No evidence of atypical hyperplasia, in situ carcinoma, or invasive carcinoma - Skin, nipple, and resection margins unremarkable COMMENT: This report was amended to correct the number of positive nodes in the microscopic section, in the \"Breast Carcinoma Checklist.\" The Diagnosis above is unchanged, and is correct, with a total of 2 positive nodes; that count has been",
+  "case_id": "TCGA-MS-A51U"
+}

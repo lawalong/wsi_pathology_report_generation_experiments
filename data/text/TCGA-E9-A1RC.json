@@ -1,0 +1,21 @@
+{
+  "diagnosis": "Details: Tumor Features: Unknown, Tumor Extent: T4 Chest wal or (and) skin involved, Venous invasion: Absent, Margins: Absent,",
+  "microscopic": "Inftrating duct and lobular carcinoma; G2. Skin s involved. All ten examined lymph nodes demonstrate metastases",
+  "margins": "Absent,",
+  "lymph_nodes": "s demonstrate metastases Microscopic Description: Inftrating duct and lobular carcinoma; G2. Skin s involved. All ten examined lymph nodes demonstrate metastases",
+  "ptnm": "",
+  "keywords": [
+    "tumor",
+    "lymph nodes",
+    "breast",
+    "lobular",
+    "carcinoma",
+    "margins",
+    "ductal",
+    "metastasis",
+    "mastectomy",
+    "3 cm"
+  ],
+  "full": "TSS 10: TSS 0: oc 10: Date of Procurement: Gross Description: Breast withthe tumor of 3.5 x3:3 cm insite, with extension under the ski. All ten examined lymph nodes demonstrate metastases Microscopic Description: Inftrating duct and lobular carcinoma; G2. Skin s involved. All ten examined lymph nodes demonstrate metastases Diagnosis Details: Tumor Features: Unknown, Tumor Extent: T4 Chest wal or (and) skin involved, Venous invasion: Absent, Margins: Absent, Treatment Effect: Comments: Postoperative staging reads as folloes: T4c N32 MO. Formatted Path Report: BREAST TISSUE CHECKLIST Specimen type: Radical mastectomy Specimen sie: Not specified Tumor ste: Breast Tumor ste: 33x0%35em ross evident eson: Yes Wistologc type: Infitrating ductal and lobular carcinoma Wistolopc grade: Moderately cifferentiated Tumor extent: Skin Lymph nodes: 10/10 postive for metastasis (ilar 10/10) Extracapsulr invasion ofthe lymph nodes: Not specified Margins: Not species Nottingham Histologe Score Tubule formation: Not specified Nuclear pleomorphism: Not specified Mitotic count (25x): Not specified Mitotic count (40x): Not spectfied /tb-0-3 Cinemonr, vipettishrs duct tnd Labale) 2533/3 Sites brah wes 656.9 dif Je uno: p1eaaiar-a161-s9st-s aeaay a peor a i ca T310 Total Nottingham Score: Score cannot be determined Evidence of neo-adjuvant treatment: Not specified Additional pathologic findings: Not specified Comments: None Lateralty: Right, upper outer quadrant",
+  "case_id": "TCGA-E9-A1RC"
+}

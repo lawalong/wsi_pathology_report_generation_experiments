@@ -1,0 +1,30 @@
+{
+  "diagnosis": "Discrepancy Form 4.05 Study Subject 1D: Person 1D: N/A Study/Site: TCGA Breast Invasive Carcinoma - (Breast Invasive Carcinoma) Age: WA",
+  "microscopic": "focus) sro: :ansonss-7a83-45c Teoa=wX-A899 1 0 iia",
+  "margins": "See below",
+  "lymph_nodes": "sampling: Sentinel lymph node and axillary dissection",
+  "ptnm": "",
+  "keywords": [
+    "tumor",
+    "carcinoma",
+    "metastasis",
+    "lymph node",
+    "breast",
+    "invasive",
+    "positive",
+    "lobular",
+    "axillary",
+    "1 cm",
+    "negative",
+    "margin",
+    "margins",
+    "lymph nodes",
+    "her-2",
+    "sentinel",
+    "mastectomy",
+    "biopsy",
+    "2.cm"
+  ],
+  "full": "1a-acss0miroi6 ae iancced > i 1 4 pnarndde, i Dabaslar Mn i Nos 3 Assols nl MOS CSD.9 ak Research Gross Description Byun; ouulopirg eatin year old female multifocal breast cancer Research Dx pleas Procedure: Total mastectomy (including nipple and skin) Lymph node sampling: Sentinel lymph node and axillary dissection Specimen laterality: Right lultifocal, lower outer quadrant (majority of tumors) and lower inner quadrant x 1.5 x 1.3 om (largest tumor) Histopathologic type: Lobular with foci of signet ring morphology 07 e~ tp side Histopathologic grade (Nottingham): 2 Mitotic count: 2 mitoses/10 hpf (low proliferative rate) Tumor focality: Multiple foci of invasive carcinoma Pathologic tumor stage: pT1c: Tumor greater than 1 cm but less than or equal to 2.cm in greatest dimension Margin status: See below Distance of carcinoma from margins: Anterior: 0.38 mm (microscopic focus) sro: :ansonss-7a83-45c Teoa=wX-A899 1 0 iia I CCCI MU A Associated in situ carcinoma: Yes Type: Leis. Extensive (>25% of total tumor): No Separate (extra-tumoral) foci away from main lesion: Yes Peritumoral angiolymphatic invasion: Not identified Dermal angiolymphatic invasion: Not identified Hormone receptors by properly controlled immunohistochemistry performed on previous core biopsy Estrogen receptor: Positive Progesterone receptor: Positive HER-2/neu (ERBB2): Negative Pathologic lymph node stage: pN2a: Metastasis in 4-9 axillary lymph nodes (at least one tumor deposit greater than 2.0 mm) Number of nodes positive for metastasis/total number nodes sampled: 5/22 Maximum diameter of largest lymph node metastasis: 1 cm Extranodal extension by tumor: Present, focal Distant metastasis: pM: Not applicable Additional pathologic findings: Fibrocystic changes AJCC Staging (7th Edition): pT1c(m) pN2a pM: Not applicable Research QC Tumor: 80% tumor nuclei 0% necrosis 20% normal Normal 100% breast Specimen Process Time Blood draw time: Plasma frozen time: Serum frozen time: Buffy coat frozen time Cold i",
+  "case_id": "TCGA-XX-A899"
+}

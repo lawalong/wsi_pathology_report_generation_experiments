@@ -1,0 +1,22 @@
+{
+  "diagnosis": "Procurement Dat Laterality:Left, upper outer quadrant Path Report:BREAST TISSUE CHECKLIST Specimen type: Lumpectomy Specimen size: Not specified Tumor site: Breast Tumor size: 2x0x2.2 cm Grossly evident lesion: Yes Histologic type: Lobular carcinoma Histologic grade: Moderately differentiated Tumor extent: Not specified Lymph nodes: 0/10 positive for metastasis (Axillary 0/10) Extracapsular invasion of the lymph nodes: Not specified Margins: Uninvolved Nottingham Histologic Score Tubule formation: Not specified Nuclear pleomorphism: Not specified Mitotic count (25x): Not specified Mitotic count (40x): Not specified Total Nottingham Score: Score cannot be determined",
+  "microscopic": "",
+  "margins": "Uninvolved",
+  "lymph_nodes": "s: 0/10 positive for metastasis (Axillary 0/10)",
+  "ptnm": "",
+  "keywords": [
+    "tumor",
+    "lymph nodes",
+    "breast",
+    "lobular",
+    "carcinoma",
+    "positive",
+    "metastasis",
+    "margins",
+    "axillary",
+    "lumpectomy",
+    "2 cm"
+  ],
+  "full": "Procurement Dat Laterality:Left, upper outer quadrant Path Report:BREAST TISSUE CHECKLIST Specimen type: Lumpectomy Specimen size: Not specified Tumor site: Breast Tumor size: 2x0x2.2 cm Grossly evident lesion: Yes Histologic type: Lobular carcinoma Histologic grade: Moderately differentiated Tumor extent: Not specified Lymph nodes: 0/10 positive for metastasis (Axillary 0/10) Extracapsular invasion of the lymph nodes: Not specified Margins: Uninvolved Nottingham Histologic Score Tubule formation: Not specified Nuclear pleomorphism: Not specified Mitotic count (25x): Not specified Mitotic count (40x): Not specified Total Nottingham Score: Score cannot be determined Evidence of neo-adjuvant treatment: Not specified Ad nal pathologic findings: Not specified Comments: None Ith 0- cannon, Sites bust, wos 050.9 Acca 3 A thang [obule, Nes wp 530/3 apofu E158 RE ATIC ONION 4",
+  "case_id": "TCGA-E9-A2JT"
+}

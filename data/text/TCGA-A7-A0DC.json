@@ -1,0 +1,31 @@
+{
+  "diagnosis": "Bilateral breast carcinoma. FROZEN SECTION DIAGNOSIS A) Lymph node, sentinel node left, excision: negative for metastatic carcinoma (0/1). FES1, FFS2: Palpable area, right axilla, biopsy - Benign lymph node present. GFS: Sentinel node #2, right axilla, biopsy - One Lymph node with no evidence of metastasis. One lymph node GROSS DESCRIPTION A. Received fresh for frozen section labeled \"left sentinel lymph node #1\" is an irregularly shaped fragment of blue stained tissue that measures 1.3 x 0.6 x 0.4 cm. in dimension. Tissue is entirely frozen. B. Received fresh, labeled \"left breast stitch 12 otclock is a 26.0 cm. (medial to lateral) x 24.5 cm. (superior to inferior) x 4.5 cm. (anterior to posterior) diffusely cauterized and focally blue stained soft, lobulated tan gold-white portion of fibroadipose tissue in keeping with breast designated as left per requisition slip and container and oriented by a single suture as stated previously. A 5.5 cm. (medial to lateral) x 2.3 cm. (superior GROSS DESCRIPTION to inferior) portion of dusky tan white skin with a central, everted, 1.3 x 1.3 x 0.5 cm. nipple is present along the anterior aspect. The deep margin is inked black and the specimen is sectioned. There is a roughly spherical, 2.4 cm. clot-filled biopsy cavity within the lower inner quadrant. The cavity is present within 1.2 cm. of the anterior surface (inked blue see block 2) and 2.8 cm. of the inked deep margin (see block 1). Several cylindrical tan white firm structures are evident within the cavity. The periphery of the cavity is fibrotic with diffuse chalky yellow fat necrosis. Lateral to the cavity is an ill-defined focus of firm, tan white fibrous tissue with dilated ductal structures (see blocks 6 and 7). Within the center of the focus, there appears to be a stellate 1.0 x 1.0 x 1.0 cm. rubbery tan white lesion which is 0.5 om. from the inked deep margin (see blocks 7 and 8). The remaining cut surfaces throughout the specimen consists predominately of glistening lobulated golden yellow adipose tissue with a moderate amount of interspersed focally blue stained dense tan white fibrous tissue. No additional mass lesions are identified. Representative sections are submitted in fourteen blocks as labeled. RS-14.",
+  "microscopic": "B. Left Breast",
+  "margins": "Negative",
+  "lymph_nodes": "#1 B. Left breast stitch 12 o'clock C. Left breast, Tail of Spence D. Left breast, Nodule inferior skin flap - stitch 6 o'clock &. Right breast double long 12 o'clock single long hard mass 10 o'clock F. Palpable area right axilla G. Sentinel node #2, right breast",
+  "ptnm": "",
+  "keywords": [
+    "breast",
+    "carcinoma",
+    "biopsy",
+    "margin",
+    "lymph node",
+    "negative",
+    "ductal",
+    "sentinel",
+    "invasive",
+    "mass",
+    "margins",
+    "her2",
+    "1.5 cm",
+    "grade ii",
+    "positive",
+    "resection",
+    "mastectomy",
+    "tumor",
+    "0.5 cm",
+    "0.6 cm"
+  ],
+  "full": "ona see IHR nua in nnn iin . || I IH 10S- 0-3 Tn mn Corcinoma, ducteR vv situ, Nos 8500/2. Site Presb, wos 650.9 fo 10/22/ SPECIMEN A, Left sentinel lymph node #1 B. Left breast stitch 12 o'clock C. Left breast, Tail of Spence D. Left breast, Nodule inferior skin flap - stitch 6 o'clock &. Right breast double long 12 o'clock single long hard mass 10 o'clock F. Palpable area right axilla G. Sentinel node #2, right breast REPORT REVISED ON aT CLINICAL NOTES PRE-OP DIAGNOSIS: Bilateral breast carcinoma. FROZEN SECTION DIAGNOSIS A) Lymph node, sentinel node left, excision: negative for metastatic carcinoma (0/1). FES1, FFS2: Palpable area, right axilla, biopsy - Benign lymph node present. GFS: Sentinel node #2, right axilla, biopsy - One Lymph node with no evidence of metastasis. One lymph node GROSS DESCRIPTION A. Received fresh for frozen section labeled \"left sentinel lymph node #1\" is an irregularly shaped fragment of blue stained tissue that measures 1.3 x 0.6 x 0.4 cm. in dimension. Tissue is entirely frozen. B. Received fresh, labeled \"left breast stitch 12 otclock is a 26.0 cm. (medial to lateral) x 24.5 cm. (superior to inferior) x 4.5 cm. (anterior to posterior) diffusely cauterized and focally blue stained soft, lobulated tan gold-white portion of fibroadipose tissue in keeping with breast designated as left per requisition slip and container and oriented by a single suture as stated previously. A 5.5 cm. (medial to lateral) x 2.3 cm. (superior GROSS DESCRIPTION to inferior) portion of dusky tan white skin with a central, everted, 1.3 x 1.3 x 0.5 cm. nipple is present along the anterior aspect. The deep margin is inked black and the specimen is sectioned. There is a roughly spherical, 2.4 cm. clot-filled biopsy cavity within the lower inner quadrant. The cavity is present within 1.2 cm. of the anterior surface (inked blue see block 2) and 2.8 cm. of the inked deep margin (see block 1). Several cylindrical tan white firm structures are evident within the cavit",
+  "case_id": "TCGA-A7-A0DC"
+}

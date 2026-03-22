@@ -1,0 +1,30 @@
+{
+  "diagnosis": "Breast; right, wide local excision: Infiltrating ductal carcinoma, Nottingham grade III (of Ill), [tubules 3/3, nuclei 3/3, mitoses 3/3; Nottingham score 9/9], forming a 3.5 x 2.5 x 2.5 em mass [AICCpT2]. Angiolymphatic invasion is absent. The non-neoplastic breast parenchyma shows nonproliferative fibrocystic changes. All surgical resection margins are negative for tumor (minimum tumor free margin, 0.5 cm medial margin). Lymph nodes, right axillary sentinel, excision: Multiple (6) right axillary sentinel lymph nodes",
+  "microscopic": "",
+  "margins": "are negative for tumor (minimum tumor free margin, 0.5 cm medial margin). Lymph nodes, right axillary sentinel, excision: Multiple (6) right axillary sentinel lymph nodes",
+  "lymph_nodes": "s, right axillary sentinel, excision: Multiple (6) right axillary sentinel lymph nodes",
+  "ptnm": "",
+  "keywords": [
+    "sentinel",
+    "axillary",
+    "negative",
+    "excision",
+    "tumor",
+    "carcinoma",
+    "margin",
+    "lymph nodes",
+    "lymph node",
+    "breast",
+    "infiltrating",
+    "ductal",
+    "grade iii",
+    "metastatic",
+    "resection",
+    "margins",
+    "lymph\nnode",
+    "mass",
+    "0.5 cm"
+  ],
+  "full": "1eb- 0-3 sae, hpaltaucing duct nos $5003 Site Cote > brent, NOS S SOG tojade Ae Final Diagnosis Breast; right, wide local excision: Infiltrating ductal carcinoma, Nottingham grade III (of Ill), [tubules 3/3, nuclei 3/3, mitoses 3/3; Nottingham score 9/9], forming a 3.5 x 2.5 x 2.5 em mass [AICCpT2]. Angiolymphatic invasion is absent. The non-neoplastic breast parenchyma shows nonproliferative fibrocystic changes. All surgical resection margins are negative for tumor (minimum tumor free margin, 0.5 cm medial margin). Lymph nodes, right axillary sentinel, excision: Multiple (6) right axillary sentinel lymph nodes with blue dye are negative for metastatic carcinoma (AJCCpNO(i-) (sn)]. Immunohistochemical cytokeratin stain was performed on the paraffin embedded sentinel lymph node tissue and confirms the H&E impression. Lymph node, right axillary non-sentinel, excision: A single right axillary non-sentinel lymph node identified is negative for tumor. Seen in consultation with Dr. ee dacted Pe in LL tt",
+  "case_id": "TCGA-AR-A1AQ"
+}

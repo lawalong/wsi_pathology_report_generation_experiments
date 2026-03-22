@@ -1,0 +1,31 @@
+{
+  "diagnosis": "Details: Tumor Features: Indeterminate, Tumor Extent: T2 tumor size more than 2cm not more than 5 cm, Venous Invasion: Not specified, Margins: Absent, Treatment Effect:",
+  "microscopic": "infiltrating lobular carcinoma of the breast, G-3, with multicentric type of growth. There are single signet-ring cells. Ten examined lymph nodes demonstrated metastases.",
+  "margins": "Absent, Treatment Effect:",
+  "lymph_nodes": "fatty tissue there are lymph nodes with lipomatosis (suspicion of metastases).",
+  "ptnm": "",
+  "keywords": [
+    "tumor",
+    "positive",
+    "breast",
+    "lymph nodes",
+    "pr",
+    "3 cm",
+    "negative",
+    "margins",
+    "er",
+    "her-2",
+    "lobular",
+    "carcinoma",
+    "ki-67",
+    "axillary",
+    "2cm",
+    "infiltrating",
+    "metastasis",
+    "mastectomy",
+    "1.5 cm",
+    "1 cm"
+  ],
+  "full": "ro: aFsoaes7 ae Teskse9-AS4) ar Rae ti EE BaF -6E2CHC289474 PR Gross Description: There is a breast with tumor of irregular shape up to 3 cm in its largest dimension. At the distance of 1.5 cm from the 1st tumor node there is the 2nd node up to 1 cm in size. In the axillary fatty tissue there are lymph nodes with lipomatosis (suspicion of metastases). Microscopic Description: infiltrating lobular carcinoma of the breast, G-3, with multicentric type of growth. There are single signet-ring cells. Ten examined lymph nodes demonstrated metastases. IHC-stainings: ER - positive reaction 98% 3+; PR - positive reaction 50% 3+; Her-2/neu - negative reaction 14; Ki+67 - 6%, Diagnosis Details: Tumor Features: Indeterminate, Tumor Extent: T2 tumor size more than 2cm not more than 5 cm, Venous Invasion: Not specified, Margins: Absent, Treatment Effect: Comments: Original records read pT1N2MO. But tumor size is up to 3 cm in largest dimension, which corresponds to T2. Formatted Path Reports: BREAST TISSUE CHECKLIST Specimen type: Radical mastectomy Specimen size: Not specified Jeb-0-3 Tumor site: Breast ehrerdonn, Uapl trating Vobaked , ses Tumor size: 0 x0x 3 cm 520/3 vf bast, esd Grossly evident lesion: Yes Sits baal wes jae Histologic type: Lobular carcinoma Histologic grade: Poorly differentiated Tumor extent: Not specified Lymph nodes: 8/10 positive for metastasis (Axillary 8/10) Extracapsular invasion of the lymph nodes: Not specified Margins: Uninvolved Nottingham Histologic Score Tubule format lot specified Nuclear pleomorphism: Not specified Mitotic count (25x): Not specified Mitotic count (40x): Not specified Total Nottingham Score: Score cannot be determined Evidence of neo-adjuvant treatment: Not specified Additional pathologic findings: Tumor Features: Indeterminate, Tumor Extent: T2 tumor size more than 2cm not more than S cm, Venous Invasion: Not specified, Margins: Absent, Treatment Effect: IHC- stainings: ER - positive reaction 98% 3+; PR - positive reaction 50% ",
+  "case_id": "TCGA-E9-A54Y"
+}

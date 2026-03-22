@@ -1,0 +1,29 @@
+{
+  "diagnosis": "ast, right, Wide local excision: Invasive ductal carcinoma, Nottingham grade 2 (of 3), forming a 2.5 x 2.1 x 1.0 em mass(AJCC 2). Ductal carcinoma in situ, solid type, without necrosis and high nuclear grade identified. Angiovascular invasion present. After, re-excision of inferior and deep margins, all margins are negative by at least 1.0 cm, Skin ellipse identified without abnormality. Lymph nodes, right (AICC pN1). illary sentinel, excision: Multiple (2 of 5) sentinel lymph nodes are positive for metastatic breast carcinoma Lymph nodes, right lary, excision: Multiple (7) right axillary lymph nodes are negative for tumor. Estrogen/progesterone analysis and Her2/Neu have been ordered on paraffin embedded tissue, /eb-0-3 danewiomn, ripdtratins duet 0s 9500/3 Sites bru, 1s C509 hy yop Unb: 8F229023- 8408 459F-4nEc.soen2e2664FD TeGA-AR-AadL- 014. Pa a",
+  "microscopic": "",
+  "margins": ", all margins are negative by at least 1.0 cm, Skin ellipse identified without abnormality. Lymph nodes, right (AICC pN1). illary sentinel, excision: Multiple (2 of 5) sentinel lymph nodes are positive for metastatic breast carcinoma Lymph nodes, right lary, excision: Multiple (7) right axillary lymph nodes are negative for tumor. Estrogen/progesterone analysis and Her2/Neu have been ordered on paraffin embedded tissue, /eb-0-3 danewiomn, ripdtratins duet 0s 9500/3 Sites bru, 1s C509 hy yop Unb: 8F229023- 8408 459F-4nEc.soen2e2664FD TeGA-AR-AadL- 014. Pa a",
+  "lymph_nodes": "s, right (AICC pN1). illary sentinel, excision: Multiple (2 of 5) sentinel lymph nodes are positive for metastatic breast carcinoma Lymph nodes, right lary, excision: Multiple (7) right axillary lymph nodes are negative for tumor. Estrogen/progesterone analysis and Her2/Neu have been ordered on paraffin embedded tissue, /eb-0-3 danewiomn, ripdtratins duet 0s 9500/3 Sites bru, 1s C509 hy yop Unb: 8F229023- 8408 459F-4nEc.soen2e2664FD TeGA-AR-AadL- 014. Pa a",
+  "ptnm": "",
+  "keywords": [
+    "lymph nodes",
+    "excision",
+    "carcinoma",
+    "ductal",
+    "negative",
+    "margins",
+    "sentinel",
+    "invasive",
+    "grade 2",
+    "positive",
+    "metastatic",
+    "her2",
+    "pn1",
+    "breast",
+    "axillary",
+    "mass",
+    "tumor",
+    "1.0 cm"
+  ],
+  "full": "ie. - Final Diagnosis ast, right, Wide local excision: Invasive ductal carcinoma, Nottingham grade 2 (of 3), forming a 2.5 x 2.1 x 1.0 em mass(AJCC 2). Ductal carcinoma in situ, solid type, without necrosis and high nuclear grade identified. Angiovascular invasion present. After, re-excision of inferior and deep margins, all margins are negative by at least 1.0 cm, Skin ellipse identified without abnormality. Lymph nodes, right (AICC pN1). illary sentinel, excision: Multiple (2 of 5) sentinel lymph nodes are positive for metastatic breast carcinoma Lymph nodes, right lary, excision: Multiple (7) right axillary lymph nodes are negative for tumor. Estrogen/progesterone analysis and Her2/Neu have been ordered on paraffin embedded tissue, /eb-0-3 danewiomn, ripdtratins duet 0s 9500/3 Sites bru, 1s C509 hy yop Unb: 8F229023- 8408 459F-4nEc.soen2e2664FD TeGA-AR-AadL- 014. Pa a",
+  "case_id": "TCGA-AR-A24L"
+}

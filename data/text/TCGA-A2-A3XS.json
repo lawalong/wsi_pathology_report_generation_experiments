@@ -1,0 +1,31 @@
+{
+  "diagnosis": "A, BREAST, LEFT, LUMPECTOMY: - INFILTRATING (INVASIVE) AND INTRADUCTAL CARCINOMA, COMEDO-TYPE,",
+  "microscopic": "",
+  "margins": ". - SPECIAL STAINS PENDING, ADDENDUM TO FOLLOW. B. BREAST, LEFT NEW MEDIAL MARGIN, BIOPSY: - HIGH GRADE INTRADUCTAL CARCINOMA, COMEDO-TYPE, BLOOM RICHARDSON GRADE 9 (3 +3 +3). - TUMOR INVOLVMENT PRESENT AT MARGIN. C. LYMPH NODE, SENTINEL LYMPH NODE #1, BIOPS: - POSITIVE FOR METASTATIC CARCINOMA. - CYTOKERATIN STAIN POSITIVE FOR METASTATIC CARCINOMA. D. SOFT TISSUE, AXILLARY CONTENTS, BIOPSY: - NO EVIDENCE OF MALIGNANCY.",
+  "lymph_nodes": "#1 D: AXILLARY CONTENTS Sife: brecet, NOS FINAL DIAGNOSIS A, BREAST, LEFT, LUMPECTOMY: - INFILTRATING (INVASIVE) AND INTRADUCTAL CARCINOMA, COMEDO-TYPE,",
+  "ptnm": "",
+  "keywords": [
+    "breast",
+    "margin",
+    "lymph node",
+    "carcinoma",
+    "axillary",
+    "lumpectomy",
+    "tumor",
+    "positive",
+    "her2",
+    "sentinel",
+    "mass",
+    "metastatic",
+    "margins",
+    "biopsy",
+    "3.0 cm",
+    "2.0 cm",
+    "infiltrating",
+    "invasive",
+    "pr",
+    "pt2"
+  ],
+  "full": "Ws0:00529504-1096-AUs.AF7S-1OREAASONESD TCGA-A2-ASKS-O1A-PR Redacted cnet SURGICAL PATHOLOGY REPORT Patient: Specimen #: * FHP/SSN: DoB/age/Sex: (ager Rac Taken: Location: Received: Physician (s) Reported: >*AMENDED** 1cD-08 SPECIMEN: Carine, , 108 set LEFT BREAST LUMPECTOMY a )NOS FS0qs B: NEW MEDIAL MARGIN, LEFT BREAST C: SENTINEL LYMPH NODE #1 D: AXILLARY CONTENTS Sife: brecet, NOS FINAL DIAGNOSIS A, BREAST, LEFT, LUMPECTOMY: - INFILTRATING (INVASIVE) AND INTRADUCTAL CARCINOMA, COMEDO-TYPE, BLOOM-RICHARDSON GRADE 9 (3 +3 + 3). - TUMOR INVOLVEMENT AT INFERIOR, SUPERIOR, AND ANTERIOR MARGINS. - SPECIAL STAINS PENDING, ADDENDUM TO FOLLOW. B. BREAST, LEFT NEW MEDIAL MARGIN, BIOPSY: - HIGH GRADE INTRADUCTAL CARCINOMA, COMEDO-TYPE, BLOOM RICHARDSON GRADE 9 (3 +3 +3). - TUMOR INVOLVMENT PRESENT AT MARGIN. C. LYMPH NODE, SENTINEL LYMPH NODE #1, BIOPS: - POSITIVE FOR METASTATIC CARCINOMA. - CYTOKERATIN STAIN POSITIVE FOR METASTATIC CARCINOMA. D. SOFT TISSUE, AXILLARY CONTENTS, BIOPSY: - NO EVIDENCE OF MALIGNANCY. ACC PATHOLOGIC STAGING: pT2 pNic pMX COMMENT: AMENDMENT Case amended by Dr in the absence of the primary pathologist, Dr .. to report results of HER2 analysis by immunohistochemistry Hercep Test) : HER2: WEAKLY POSITIVE (2+) NOTE: HER2 by FISH analysis previously performed on PISH: Not amplified (1.3). Page 1 Continued on Next Page SURGICAL PATHOLOGY REPORT Patient: Specimen #2 -- FINAL DIAGNOSIS (continued) + . ** Renort Rlectronically Signed Out ** CLINICAL DIAGNOSIS AND HISTORY: -year-old with diagnosis of left breast cancer. GROSS DESCRIPTION: A. LEFT BREAST LUMPECTOMY received fresh labeled with the patient s name and designated \"LEFT BREAST LUMPECTOMY\" is a piece of fatty tissue, 8.0 x 5.0 x 6.5 x 1.8 cm, impaled with a needle localization wire. The specimen is oriented with sutures (short=superior, long=lateral) and is inked as follows: Red=medial and lateral, blue=superior, green=inferior, yellow-anterior, black=posterior. The needle localization wire ent",
+  "case_id": "TCGA-A2-A3XS"
+}

@@ -1,0 +1,16 @@
+{
+  "diagnosis": "Breast Cancer Histological description: infiltrative ductal carcinoma",
+  "microscopic": "",
+  "margins": "",
+  "lymph_nodes": "",
+  "ptnm": "",
+  "keywords": [
+    "breast",
+    "tumor",
+    "ductal",
+    "carcinoma",
+    "mastectomy"
+  ],
+  "full": "no: Sgsse-ns-su or eckeaN ato cted ah 15S Patient 1D Case t os: Sex Female Ethnicity (Race) Cancer Sample Diagnosis: Breast Cancer Histological description: infiltrative ductal carcinoma Date of Procurement Anatomic Site: Right Breast. Tumor location: Primary \"Tssue Specification: Tumor Specimen Matrix: Tissue. Specimen Format: Frozen Container: cryomold Type of Procurement: Radical mastectomy Grade: 2 T Stage: 2_N Stage:0 M Stage: 0 Treatment: none Treatment Details: n/a Normal Sample Anatomic site: Blood Sample Type: Normal. Type of Procurement: blood draw Matrix: Blood Specimen Format: frozen Container: tube Date of Procurement: Ieh-0-3 Lavcinoma, vnpbtiatiy kuct, wes 9500] Sift: brcast Nos 050.9 42 opal a Sie =",
+  "case_id": "TCGA-AN-A0FV"
+}

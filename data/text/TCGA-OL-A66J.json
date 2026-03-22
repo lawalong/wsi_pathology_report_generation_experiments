@@ -1,0 +1,31 @@
+{
+  "diagnosis": "A. Lymph node, sentinel #1, right axillary, excision: - One lymph node, negative for metastatic carcinoma (0/1). - Biopsy site changes identified. B. Lymph node, sentinel #2, right axillary, excision: - One lymph node, negative for metastatic carcinoma (0/1). C. Lymph node, sentinel #3, right axillary, excision: - One lymph node, negative for metastatic carcinoma (0/1). D. Lymph node, sentinel #4, right axillary, excision: - One lymph node, negative for metastatic carcinoma (0/1). E, Breast, right, partial mastectomy: - Invasive lobular carcinoma, see breast pathologic parameters. 336. 060F2407 63-01A-PR Red:",
+  "microscopic": "",
+  "margins": "of excision free of tumor, distance to the closest margin >2 mm F and anterior.",
+  "lymph_nodes": ", sentinel #1, right axillary, excision: - One lymph node, negative for metastatic carcinoma (0/1). - Biopsy site changes identified. B. Lymph node, sentinel #2, right axillary, excision: - One lymph node, negative for metastatic carcinoma (0/1). C. Lymph node, sentinel #3, right axillary, excision: - One lymph node, negative for metastatic carcinoma (0/1). D. Lymph node, sentinel #4, right axillary, excision: - One lymph node, negative for metastatic carcinoma (0/1). E, Breast, right, partial mastectomy: - Invasive lobular carcinoma, see breast pathologic parameters. 336. 060F2407 63-01A-PR Red:",
+  "ptnm": "",
+  "keywords": [
+    "margin",
+    "breast",
+    "sentinel",
+    "margins",
+    "lymph node",
+    "mass",
+    "carcinoma",
+    "tumor",
+    "excision",
+    "biopsy",
+    "negative",
+    "lobular",
+    "metastatic",
+    "axillary",
+    "mastectomy",
+    "ductal",
+    "invasive",
+    "pr",
+    "lumpectomy",
+    "er"
+  ],
+  "full": "Sample #: FINAL PATHOLOGIC DIAGNOSIS A. Lymph node, sentinel #1, right axillary, excision: - One lymph node, negative for metastatic carcinoma (0/1). - Biopsy site changes identified. B. Lymph node, sentinel #2, right axillary, excision: - One lymph node, negative for metastatic carcinoma (0/1). C. Lymph node, sentinel #3, right axillary, excision: - One lymph node, negative for metastatic carcinoma (0/1). D. Lymph node, sentinel #4, right axillary, excision: - One lymph node, negative for metastatic carcinoma (0/1). E, Breast, right, partial mastectomy: - Invasive lobular carcinoma, see breast pathologic parameters. 336. 060F2407 63-01A-PR Red: ie - Margins of excision free of tumor, distance to the closest margin >2 mm F and anterior. to supe - Lobular intraepithelial neoplasia (LCIS), classic type. - Atypical ductal hyperplasia. - Previous biopsy site identified with extensive fat necrosis. Fat epithet atypia focally associated wih mirocaeeat Sclerosing adenosis, focally associated with mirocalfiations iezoeaeetions ia benign dtl and stroma Frys changes with esti apocrine metaplasia Breast, adtional superior medlal magi, excision: Focal atypical ductal hyperplasia Lobularintraepthel neoplasia (ALH/CIS), Focal fat epithelia atypia + Sclerosing adenosis focally associated with microclefcatons. Microcaleieaions in benign ducts and stroma Frys changes with esl apocrine metaplasia uct ecto, Breast Pathologic Parameters Specimen : Breast, right, prt mastectomy [A Sie: Gross measurement: 1.6415 x1.8 m 2. Composite histologic (modified SBR) grade Architecture: 3 Nuclear grade: 2 tie count 1 .Asocatedlobularintraepithelal neoplasia (LI): within main mas (forming <3 of tumor volume) Extending away rom main mass 3. xcisonal biopsy margins: Free of tumor masve carcinoma >2 me from anterior and superior margins = Additional margins greater than 3mm away 4 Blood vessel and lmphatic invasion: Not defintely identified 5 Aailey mph nodes: Negative for tumor (0/4) 6 Speco studies ",
+  "case_id": "TCGA-OL-A66J"
+}
