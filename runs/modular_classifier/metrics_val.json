@@ -1,0 +1,58 @@
+{
+  "loss": 0.5512,
+  "macro_f1": 0.2012,
+  "micro_f1": 0.5258,
+  "per_label_accuracy": {
+    "carcinoma_present": 0.7143,
+    "benign_present": 0.8,
+    "invasive_present": 0.6571,
+    "in_situ_present": 0.6857,
+    "lymph_node_positive": 0.7143,
+    "grade_1": 0.9429,
+    "grade_2": 0.8286,
+    "grade_3": 0.8857,
+    "ductal_present": 0.5429,
+    "lobular_present": 0.8,
+    "metastasis_present": 0.5429
+  },
+  "per_label_f1": {
+    "carcinoma_present": 0.8333,
+    "benign_present": 0.0,
+    "invasive_present": 0.7273,
+    "in_situ_present": 0.0,
+    "lymph_node_positive": 0.0,
+    "grade_1": 0.0,
+    "grade_2": 0.0,
+    "grade_3": 0.0,
+    "ductal_present": 0.6522,
+    "lobular_present": 0.0,
+    "metastasis_present": 0.0
+  },
+  "per_label_precision": {
+    "carcinoma_present": 0.7143,
+    "benign_present": 0.0,
+    "invasive_present": 0.6154,
+    "in_situ_present": 0.0,
+    "lymph_node_positive": 0.0,
+    "grade_1": 0.0,
+    "grade_2": 0.0,
+    "grade_3": 0.0,
+    "ductal_present": 0.5,
+    "lobular_present": 0.0,
+    "metastasis_present": 0.0
+  },
+  "per_label_recall": {
+    "carcinoma_present": 1.0,
+    "benign_present": 0.0,
+    "invasive_present": 0.8889,
+    "in_situ_present": 0.0,
+    "lymph_node_positive": 0.0,
+    "grade_1": 0.0,
+    "grade_2": 0.0,
+    "grade_3": 0.0,
+    "ductal_present": 0.9375,
+    "lobular_present": 0.0,
+    "metastasis_present": 0.0
+  },
+  "num_cases": 35
+}

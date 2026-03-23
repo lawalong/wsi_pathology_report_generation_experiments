@@ -45,6 +45,7 @@ SVS Image → Verify Pairing → Build Index → Build Targets → Batch Pipelin
 | 10 | `evaluate_metrics.py` | ROUGE + keyword coverage + BERTScore evaluation |
 | 11 | `compare_baselines.py` | Full comparison table + LaTeX output |
 | 12 | `build_modular_labels.py` | **Modular labels** — extract 11 binary clinical concept labels from structured text |
+| 13 | `train_modular_classifier.py` | **Stage-A classifier** — MLP(2048→512→11) trained on WSI embeddings → concept labels |
 
 ## Progress Tracking
 
@@ -372,6 +373,7 @@ pip install rouge-score bert-score sentence-transformers
 - [x] ROUGE + BERTScore + keyword coverage evaluation
 - [x] Fix data leakage (dedup case IDs across UUID folders)
 - [x] Modular multi-label targets (11 clinical concepts from structured text)
+- [x] Stage-A modular classifier (WSI → concept labels, MLP + BCEWithLogitsLoss)
 - [ ] Implement train_baseline.py (T5-small + visual tokens)
 - [ ] Attention-based MIL aggregation (replace mean-pooling)
 - [ ] CLAM/HIPT feature extractors
