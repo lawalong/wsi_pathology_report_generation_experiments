@@ -244,6 +244,51 @@ def evaluate(
 
 
 # ============================================================================
+# Class imbalance weighting
+# ============================================================================
+
+MAX_POS_WEIGHT = 10.0  # Clamp to avoid loss explosion on very rare labels
+
+
+def compute_pos_weight(dataset: WSILabelDataset, device: torch.device) -> torch.Tensor:
+    """Compute per-label pos_weight = num_neg / num_pos for BCEWithLogitsLoss.
+
+    Labels with zero positives get pos_weight = MAX_POS_WEIGHT.
+    All weights are clamped to [1.0, MAX_POS_WEIGHT].
+    """
+    n = len(dataset)
+    if n == 0:
+        return torch.ones(NUM_LABELS, device=device)
+
+    # Stack all label vectors  → [N, 11]
+    all_labels = np.array([dataset.samples[i][2] for i in range(n)])
+    pos_counts = all_labels.sum(axis=0)  # [11]
+
+    weights = []
+    for i, name in enumerate(LABEL_NAMES):
+        pos = pos_counts[i]
+        neg = n - pos
+        if pos == 0:
+            w = MAX_POS_WEIGHT
+        else:
+            w = float(neg / pos)
+        w = max(1.0, min(w, MAX_POS_WEIGHT))
+        weights.append(w)
+
+    pw = torch.tensor(weights, dtype=torch.float32, device=device)
+
+    # Print summary
+    print(f"\n  Class weights (pos_weight = num_neg / num_pos, "
+          f"clamped to [{1.0}, {MAX_POS_WEIGHT}]):")
+    for i, name in enumerate(LABEL_NAMES):
+        pos = int(pos_counts[i])
+        print(f"    {name:<25s}  pos={pos:>3d}/{n}  weight={pw[i]:.2f}")
+    print()
+
+    return pw
+
+
+# ============================================================================
 # Training
 # ============================================================================
 
@@ -349,7 +394,11 @@ def main() -> None:
 
     # ── Model / loss / optimizer ──────────────────────────────────────────
     model = ConceptClassifier().to(device)
-    criterion = nn.BCEWithLogitsLoss()
+
+    # Class-weighted BCE to handle label imbalance
+    pos_weight = compute_pos_weight(train_ds, device)
+    criterion = nn.BCEWithLogitsLoss(pos_weight=pos_weight)
+
     optimizer = torch.optim.AdamW(
         model.parameters(), lr=args.lr, weight_decay=args.weight_decay,
     )
