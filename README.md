@@ -46,6 +46,13 @@ SVS Image → Verify Pairing → Build Index → Build Targets → Batch Pipelin
 | 11 | `compare_baselines.py` | Full comparison table + LaTeX output |
 | 12 | `build_modular_labels.py` | **Modular labels** — extract 11 binary clinical concept labels from structured text |
 | 13 | `train_modular_classifier.py` | **Stage-A classifier** — MLP(2048→512→11) trained on WSI embeddings → concept labels |
+| 14 | `build_prompt_dataset.py` | **Prompt dataset** — build T5 training data (visual tokens + structured text prompt) |
+| 15 | `train_prompt_semantic.py` | **Stage 3 generative model** — T5-small + visual projection + semantic alignment loss |
+| 16 | `predict_prompt_semantic.py` | **Inference** — generate reports from trained model |
+| 17 | `compute_semantic_errors.py` | **Phase 4** — quantify wrong/missing/match across 12 clinical concepts |
+| 18 | `merge_results_for_paper.py` | **Paper tables** — merge all metrics into CSV / LaTeX / JSON |
+| 19 | `semantic_breakdown.py` | **Per-case breakdown** — wrong/missing/match analysis per case and concept |
+| 20 | `select_case_studies.py` | **Case studies** — auto-find cases with largest semantic improvement |
 
 ## Progress Tracking
 
@@ -65,17 +72,27 @@ code/
 │           └── Report.txt           # OCR text
 ├── data/                            # Pipeline outputs
 │   ├── dataset.jsonl                # Dataset index (204 unique cases)
-│   ├── splits.json                  # Train/Val/Test splits (0 overlap)
-│   ├── progress.jsonl               # 🆕 Progress tracking
+│   ├── splits.json                  # Train/Val/Test splits (122/40/42, 0 overlap)
+│   ├── progress.jsonl               # Progress tracking
 │   ├── targets_diagnosis.jsonl      # Training targets
 │   ├── features/{case_id}.npy       # [N, 2048] patch features
-│   ├── wsi/{case_id}.npy            # [2048] WSI embedding
+│   ├── wsi/{case_id}.npy           # [2048] WSI embedding
 │   ├── masks/{case_id}.png          # Tissue masks
 │   ├── text/{case_id}.json          # Structured fields + keywords
-│   └── modular_labels.jsonl         # Multi-label targets (11 clinical concepts)
+│   ├── modular_labels.jsonl         # Multi-label targets (11 clinical concepts)
+│   └── prompt_dataset.jsonl         # T5 prompt training data
+├── results/                         # Paper-ready outputs
+│   ├── main_table_test.{csv,json,tex}  # Merged results table
+│   └── case_studies.json            # Best improvement cases
 ├── runs/                            # Experiment outputs
-│   ├── baseline_retrieval/
-│   └── baseline_structured/
+│   ├── baseline_retrieval/          # Raw retrieval baseline
+│   ├── baseline_structured/         # Structured output baseline
+│   ├── topk_fusion_k3/             # Top-k fusion (k=3)
+│   ├── topk_fusion_k5/             # Top-k fusion (k=5)
+│   ├── rerank_k1/                   # Semantic rerank (k=1)
+│   ├── rerank_k3/                   # Semantic rerank+fusion (k=3)
+│   ├── ours_prompt_semantic/        # T5 + visual + semantic loss (v2)
+│   └── modular_classifier/          # Stage-A MLP classifier
 └── output/                          # Debug outputs
 ```
 
@@ -123,9 +140,9 @@ python3 evaluate_metrics.py --exp baseline_structured --split test
 **data/splits.json** - Train/Val/Test split:
 ```json
 {
-  "train": ["TCGA-...", ...],   // 131 cases
-  "val":   ["TCGA-...", ...],   // 43 cases
-  "test":  ["TCGA-...", ...]    // 45 cases
+  "train": ["TCGA-...", ...],   // 122 cases
+  "val":   ["TCGA-...", ...],   // 40 cases
+  "test":  ["TCGA-...", ...]    // 42 cases
 }
 ```
 
@@ -347,6 +364,38 @@ python evaluate_metrics.py --exp baseline_retrieval --split test
 - Text-level matching captures clinical terms that pure visual similarity misses
 - Val/test results are consistent — no signs of data leakage
 
+### Generative Model (Stage 3): T5-small + Visual Tokens + Semantic Loss
+
+| Metric | Val | Test |
+|--------|-----|------|
+| ROUGE-L | 0.1968 | 0.1754 |
+| KW Coverage | 0.4947 | 0.4695 |
+
+- **Architecture:** T5-small (60.5M params), Linear(2048 → 8×512) visual projection, 8 visual tokens prepended
+- **Semantic loss:** Frozen all-MiniLM-L6-v2, `L = L_CE + 0.2 × L_sem`
+- **Best checkpoint:** Epoch 13 (prompt v2: keyword emphasis + structural constraint)
+
+### Semantic Error Quantification (Phase 4)
+
+| Metric | Baseline (Structured) | Ours (T5+Vis+Sem) | Δ |
+|--------|----------------------|-------------------|---|
+| Wrong rate ↓ | 14.3% | **9.2%** | **−36% relative** |
+| Match rate ↑ | 29.3% | 19.0% | −35% |
+| Missing rate | 18.2% | 18.4% | +1% |
+
+> Wrong rate = hallucinated concepts. Ours reduces hallucinations by 36% relative, at the cost of being more conservative (lower match rate).
+
+### Modular Classifier (Stage A)
+
+| Metric | Val | Test |
+|--------|-----|------|
+| Macro F1 | 0.4041 | 0.3674 |
+| Micro F1 | 0.6393 | 0.6267 |
+
+- **Architecture:** MLP(2048 → 512 → 11), class-weighted BCEWithLogitsLoss
+- **11 concepts:** carcinoma, benign, invasive, in_situ, lymph_node_positive, grade_1/2/3, ductal, lobular, metastasis_present
+- 9/11 labels achieve non-zero F1 on test set
+
 ## Notes
 
 - **GPU Acceleration:** Feature extraction uses CUDA if available
@@ -374,6 +423,8 @@ pip install rouge-score bert-score sentence-transformers
 - [x] Fix data leakage (dedup case IDs across UUID folders)
 - [x] Modular multi-label targets (11 clinical concepts from structured text)
 - [x] Stage-A modular classifier (WSI → concept labels, MLP + BCEWithLogitsLoss)
-- [ ] Implement train_baseline.py (T5-small + visual tokens)
+- [x] Generative model (T5-small + visual tokens + semantic alignment loss)
+- [x] Semantic error quantification (wrong/missing/match across 12 concepts)
+- [x] Paper utility scripts (merge tables, per-case breakdown, case studies)
 - [ ] Attention-based MIL aggregation (replace mean-pooling)
 - [ ] CLAM/HIPT feature extractors
