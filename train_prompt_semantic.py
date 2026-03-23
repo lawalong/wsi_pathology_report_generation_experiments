@@ -249,10 +249,23 @@ def compute_val_rouge(model, tokenizer, val_loader, device, max_len=MAX_TARGET_L
 
 # ── Training ────────────────────────────────────────────────────
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Train T5 + visual + semantic model")
+    parser.add_argument("--exp_name", type=str, default=None,
+                        help="Experiment name (folder in runs/). Default: ours_prompt_semantic")
+    parser.add_argument("--semantic_weight", type=float, default=None,
+                        help="Semantic loss weight (lambda). Default: 0.2")
+    args = parser.parse_args()
+
+    # Override globals if CLI args provided
+    save_dir = Path(f"runs/{args.exp_name}") if args.exp_name else SAVE_DIR
+    lambda_sem = args.semantic_weight if args.semantic_weight is not None else LAMBDA_SEM
+
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"Device: {device}")
     print(f"Config: epochs={EPOCHS}, bs={BATCH_SIZE}, lr={LR}, "
-          f"lambda_sem={LAMBDA_SEM}, vis_tokens={NUM_VISUAL_TOKENS}")
+          f"lambda_sem={lambda_sem}, vis_tokens={NUM_VISUAL_TOKENS}")
+    print(f"Save dir: {save_dir}")
     print("=" * 60)
 
     # ── Load tokenizer & model ───────────────────────────────────
@@ -291,7 +304,7 @@ def main():
     )
 
     # ── Training loop ────────────────────────────────────────────
-    SAVE_DIR.mkdir(parents=True, exist_ok=True)
+    save_dir.mkdir(parents=True, exist_ok=True)
 
     best_val_rouge = -1
     patience_counter = 0
@@ -324,7 +337,7 @@ def main():
             loss_sem = sem_loss_fn(pred_sem, target_sem)
 
             # Combined loss
-            loss = loss_ce + LAMBDA_SEM * loss_sem
+            loss = loss_ce + lambda_sem * loss_sem
 
             optimizer.zero_grad()
             loss.backward()
@@ -363,7 +376,7 @@ def main():
                 "epoch": epoch,
                 "model_state_dict": model.state_dict(),
                 "val_rougeL": val_rouge,
-            }, SAVE_DIR / "best.pt")
+            }, save_dir / "best.pt")
             improved = " ✅ BEST"
         else:
             patience_counter += 1
@@ -379,7 +392,7 @@ def main():
             break
 
     # ── Save training log ────────────────────────────────────────
-    log_path = SAVE_DIR / "train_log.json"
+    log_path = save_dir / "train_log.json"
     with open(log_path, "w") as f:
         json.dump(train_log, f, indent=2)
 
@@ -387,7 +400,7 @@ def main():
     print("TRAINING COMPLETE")
     print("=" * 60)
     print(f"  Best val ROUGE-L: {best_val_rouge:.4f}")
-    print(f"  Checkpoint:       {SAVE_DIR / 'best.pt'}")
+    print(f"  Checkpoint:       {save_dir / 'best.pt'}")
     print(f"  Log:              {log_path}")
     print(f"\nNext: python3 predict_prompt_semantic.py --split val")
 

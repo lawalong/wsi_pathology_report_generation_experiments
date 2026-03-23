@@ -58,12 +58,18 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--split", type=str, default="test", choices=["val", "test"])
     parser.add_argument("--beam", type=int, default=4, help="Beam size for generation")
+    parser.add_argument("--exp_name", type=str, default=None,
+                        help="Experiment name (folder in runs/). Default: ours_prompt_semantic")
     args = parser.parse_args()
+
+    # Override save dir if exp_name provided
+    save_dir = Path(f"runs/{args.exp_name}") if args.exp_name else SAVE_DIR
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"Device: {device}")
     print(f"Split:  {args.split}")
     print(f"Beam:   {args.beam}")
+    print(f"Exp:    {save_dir}")
     print("=" * 60)
 
     # ── Load model ───────────────────────────────────────────────
@@ -71,7 +77,7 @@ def main():
     tokenizer = T5Tokenizer.from_pretrained(MODEL_NAME)
     model = PromptSemanticModel(MODEL_NAME).to(device)
 
-    ckpt_path = SAVE_DIR / "best.pt"
+    ckpt_path = save_dir / "best.pt"
     if not ckpt_path.exists():
         print(f"❌ Checkpoint not found: {ckpt_path}")
         return
@@ -96,7 +102,7 @@ def main():
     print(f"  Loaded {len(samples)} samples from {prompt_file}")
 
     # ── Generate ─────────────────────────────────────────────────
-    out_dir = SAVE_DIR
+    out_dir = save_dir
     out_dir.mkdir(parents=True, exist_ok=True)
     pred_path = out_dir / f"predictions_{args.split}.jsonl"
 
@@ -173,8 +179,9 @@ def main():
         for r in results:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
 
+    exp_label = args.exp_name or "ours_prompt_semantic"
     print(f"\n✅ Saved {len(results)} predictions → {pred_path}")
-    print(f"\nNext: python3 evaluate_metrics.py --exp ours_prompt_semantic "
+    print(f"\nNext: python3 evaluate_metrics.py --exp {exp_label} "
           f"--split {args.split} --bertscore")
 
     # ── Quick preview ────────────────────────────────────────────

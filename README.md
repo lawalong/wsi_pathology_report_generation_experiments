@@ -53,6 +53,7 @@ SVS Image → Verify Pairing → Build Index → Build Targets → Batch Pipelin
 | 18 | `merge_results_for_paper.py` | **Paper tables** — merge all metrics into CSV / LaTeX / JSON |
 | 19 | `semantic_breakdown.py` | **Per-case breakdown** — wrong/missing/match analysis per case and concept |
 | 20 | `select_case_studies.py` | **Case studies** — auto-find cases with largest semantic improvement |
+| 21 | `run_semantic_ablation.py` | **Semantic ablation** — controlled λ sweep (train+predict+eval), outputs paper-ready comparison |
 
 ## Progress Tracking
 
