@@ -105,28 +105,60 @@ def detect_lobular(full_text: str) -> int:
 
 
 def detect_metastasis(full_text: str) -> int:
-    """G. metastasis_present — positive only when positive signal exists
-    WITHOUT any negation context.  Handles mixed-signal cases like
-    'no metastasis in lymph nodes but distant metastasis present'
-    conservatively (negative dominates)."""
-    neg_patterns = [
-        "no metastasis", "without metastasis",
-        "negative for metastasis", "no metastatic carcinoma",
+    """G. metastasis_present — positive when metastasis/metastatic appears
+    AND there is no *global* negation.  Local negations scoped to lymph nodes
+    (e.g. 'no metastasis in lymph nodes') are NOT treated as global negation,
+    so 'no metastasis in lymph nodes but distant metastasis present' → 1."""
+
+    # Local negations (scoped — do NOT kill the whole label)
+    local_neg_patterns = [
+        "no metastasis in lymph",
+        "no lymph node metastasis",
+        "negative for metastatic carcinoma in lymph",
     ]
+
+    # Global negations (unscoped — kill the label)
+    global_neg_patterns = [
+        "without metastasis",
+        "negative for metastasis",
+        "no metastatic carcinoma",
+        "no evidence of metastasis",
+        "no metastatic disease",
+    ]
+
     pos_patterns = ["metastasis", "metastatic"]
 
-    has_neg = _has_any_word(full_text, neg_patterns)
     has_pos = _has_any_word(full_text, pos_patterns)
+    if not has_pos:
+        return 0
 
-    if has_pos and not has_neg:
+    # Check global negation — but first strip local negation phrases so they
+    # don't trigger "no metastasis" as a global neg
+    text_for_neg = full_text
+    for lp in local_neg_patterns:
+        text_for_neg = text_for_neg.replace(lp, "")
+
+    has_global_neg = _has_any_word(text_for_neg, global_neg_patterns)
+    # Also catch bare "no metastasis" only in the cleaned text
+    has_global_neg = has_global_neg or bool(
+        re.search(r"\bno\s+metastasis\b", text_for_neg)
+    )
+
+    if has_pos and not has_global_neg:
         return 1
     return 0
 
 
 def detect_lymph_node_positive(lymph_nodes_text: str, full_text: str) -> int:
-    """H. lymph_node_positive — use LYMPH_NODES field first, fallback to full_text.
+    """H. lymph_node_positive — use LYMPH_NODES field ONLY.
+    If no dedicated LYMPH_NODES field exists, return 0 rather than
+    falling back to full_text (which risks false positives from
+    unrelated phrases like 'margins positive').
     Negative patterns (especially 0/N) dominate when both signals present."""
-    text = lymph_nodes_text if lymph_nodes_text else full_text
+    if not lymph_nodes_text:
+        return 0
+
+    text = lymph_nodes_text
 
     neg_patterns = [
         "negative", "no metastasis",
