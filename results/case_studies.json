@@ -1,0 +1,148 @@
+[
+  {
+    "case_id": "TCGA-B6-A0RE",
+    "wrong_reduction": 3,
+    "missing_reduction": 0,
+    "net_improvement": 3,
+    "fixed_wrong": [
+      "carcinoma",
+      "negative",
+      "invasive"
+    ],
+    "fixed_missed": [],
+    "new_wrong": [],
+    "new_missed": [],
+    "baseline_wrong": [
+      "carcinoma",
+      "negative",
+      "invasive"
+    ],
+    "ours_wrong": [],
+    "baseline_missed": [],
+    "ours_missed": []
+  },
+  {
+    "case_id": "TCGA-AC-A23E",
+    "wrong_reduction": 3,
+    "missing_reduction": -2,
+    "net_improvement": 1,
+    "fixed_wrong": [
+      "negative",
+      "positive",
+      "invasive"
+    ],
+    "fixed_missed": [],
+    "new_wrong": [],
+    "new_missed": [
+      "metastasis",
+      "margin"
+    ],
+    "baseline_wrong": [
+      "carcinoma",
+      "negative",
+      "positive",
+      "invasive",
+      "ductal",
+      "grade",
+      "in_situ"
+    ],
+    "ours_wrong": [
+      "carcinoma",
+      "ductal",
+      "grade",
+      "in_situ"
+    ],
+    "baseline_missed": [],
+    "ours_missed": [
+      "metastasis",
+      "margin"
+    ]
+  },
+  {
+    "case_id": "TCGA-BH-A0DI",
+    "wrong_reduction": 0,
+    "missing_reduction": 1,
+    "net_improvement": 1,
+    "fixed_wrong": [],
+    "fixed_missed": [
+      "carcinoma",
+      "ductal"
+    ],
+    "new_wrong": [],
+    "new_missed": [
+      "margin"
+    ],
+    "baseline_wrong": [],
+    "ours_wrong": [],
+    "baseline_missed": [
+      "carcinoma",
+      "negative",
+      "invasive",
+      "ductal",
+      "lobular"
+    ],
+    "ours_missed": [
+      "negative",
+      "invasive",
+      "lobular",
+      "margin"
+    ]
+  },
+  {
+    "case_id": "TCGA-BH-A18S",
+    "wrong_reduction": 2,
+    "missing_reduction": -1,
+    "net_improvement": 1,
+    "fixed_wrong": [
+      "positive",
+      "metastasis"
+    ],
+    "fixed_missed": [],
+    "new_wrong": [],
+    "new_missed": [
+      "lymph_node"
+    ],
+    "baseline_wrong": [
+      "positive",
+      "metastasis"
+    ],
+    "ours_wrong": [],
+    "baseline_missed": [
+      "carcinoma",
+      "benign",
+      "negative"
+    ],
+    "ours_missed": [
+      "carcinoma",
+      "benign",
+      "negative",
+      "lymph_node"
+    ]
+  },
+  {
+    "case_id": "TCGA-E9-A1R2",
+    "wrong_reduction": 0,
+    "missing_reduction": 0,
+    "net_improvement": 0,
+    "fixed_wrong": [],
+    "fixed_missed": [],
+    "new_wrong": [],
+    "new_missed": [],
+    "baseline_wrong": [],
+    "ours_wrong": [],
+    "baseline_missed": [
+      "carcinoma",
+      "metastasis",
+      "invasive",
+      "ductal",
+      "grade"
+    ],
+    "ours_missed": [
+      "carcinoma",
+      "metastasis",
+      "invasive",
+      "ductal",
+      "grade"
+    ]
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "experiment": "baseline_retrieval",
+    "method": "Raw Retrieval",
+    "type": "text",
+    "rouge1": 0.149,
+    "rouge2": 0.0393,
+    "rougeL": 0.0912,
+    "kw_cov": 0.0
+  },
+  {
+    "experiment": "baseline_structured",
+    "method": "Structured (top-1)",
+    "type": "text",
+    "rouge1": 0.2582,
+    "rouge2": 0.1005,
+    "rougeL": 0.1977,
+    "kw_cov": 0.4544,
+    "sem_match": 0.6167,
+    "sem_missed": 0.3833,
+    "sem_wrong": 0.1429
+  },
+  {
+    "experiment": "topk_fusion_k3",
+    "method": "Fusion k=3",
+    "type": "text",
+    "rouge1": 0.2507,
+    "rouge2": 0.0586,
+    "rougeL": 0.1709,
+    "kw_cov": 0.5129
+  },
+  {
+    "experiment": "topk_fusion_k5",
+    "method": "Fusion k=5",
+    "type": "text",
+    "rouge1": 0.2599,
+    "rouge2": 0.0617,
+    "rougeL": 0.1746,
+    "kw_cov": 0.5293
+  },
+  {
+    "experiment": "rerank_k1",
+    "method": "Rerank k=1",
+    "type": "text",
+    "rouge1": 0.256,
+    "rouge2": 0.0702,
+    "rougeL": 0.1726,
+    "kw_cov": 0.5221
+  },
+  {
+    "experiment": "rerank_k3",
+    "method": "Rerank+Fusion k=3",
+    "type": "text",
+    "rouge1": 0.2551,
+    "rouge2": 0.0632,
+    "rougeL": 0.1691,
+    "kw_cov": 0.5389
+  },
+  {
+    "experiment": "ours_prompt_semantic",
+    "method": "Ours (T5+Vis+Sem)",
+    "type": "text",
+    "rouge1": 0.2046,
+    "rouge2": 0.0836,
+    "rougeL": 0.1754,
+    "kw_cov": 0.4695,
+    "sem_match": 0.5079,
+    "sem_missed": 0.4921,
+    "sem_wrong": 0.0919
+  },
+  {
+    "experiment": "ours_prompt_semantic_v1",
+    "method": "Ours v1 (no prompt fix)",
+    "type": "text",
+    "rouge1": 0.1937,
+    "rouge2": 0.0976,
+    "rougeL": 0.174,
+    "kw_cov": 0.43
+  },
+  {
+    "experiment": "ours_prompt_semantic_v3",
+    "method": "Ours v3 (gen-text sem)",
+    "type": "text",
+    "rouge1": 0.1901,
+    "rouge2": 0.0867,
+    "rougeL": 0.1724,
+    "kw_cov": 0.4614
+  },
+  {
+    "experiment": "modular_classifier",
+    "method": "Modular Classifier",
+    "type": "classifier",
+    "macro_f1": 0.3674,
+    "micro_f1": 0.4954
+  }
+]

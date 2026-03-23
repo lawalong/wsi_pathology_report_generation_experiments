@@ -1,0 +1,754 @@
+{
+  "experiment": "ours_prompt_semantic",
+  "split": "test",
+  "n_cases": 39,
+  "summary": {
+    "total_match": 96,
+    "total_missing": 93,
+    "total_wrong": 43,
+    "match_rate": 0.5079,
+    "missing_rate": 0.4921,
+    "wrong_rate": 0.0919
+  },
+  "per_concept": {
+    "carcinoma": {
+      "match": 9,
+      "missing": 13,
+      "wrong": 8,
+      "absent": 9
+    },
+    "benign": {
+      "match": 0,
+      "missing": 1,
+      "wrong": 1,
+      "absent": 37
+    },
+    "negative": {
+      "match": 1,
+      "missing": 10,
+      "wrong": 6,
+      "absent": 22
+    },
+    "positive": {
+      "match": 2,
+      "missing": 4,
+      "wrong": 4,
+      "absent": 29
+    },
+    "metastasis": {
+      "match": 5,
+      "missing": 11,
+      "wrong": 3,
+      "absent": 20
+    },
+    "invasive": {
+      "match": 5,
+      "missing": 16,
+      "wrong": 5,
+      "absent": 13
+    },
+    "ductal": {
+      "match": 4,
+      "missing": 11,
+      "wrong": 9,
+      "absent": 15
+    },
+    "lobular": {
+      "match": 0,
+      "missing": 4,
+      "wrong": 2,
+      "absent": 33
+    },
+    "grade": {
+      "match": 2,
+      "missing": 7,
+      "wrong": 3,
+      "absent": 27
+    },
+    "in_situ": {
+      "match": 0,
+      "missing": 6,
+      "wrong": 2,
+      "absent": 31
+    },
+    "lymph_node": {
+      "match": 36,
+      "missing": 3,
+      "wrong": 0,
+      "absent": 0
+    },
+    "margin": {
+      "match": 32,
+      "missing": 7,
+      "wrong": 0,
+      "absent": 0
+    }
+  },
+  "per_case_summary": [
+    {
+      "case_id": "TCGA-E2-A14X",
+      "n_match": 1,
+      "n_missing": 6,
+      "n_wrong": 0,
+      "match_concepts": [
+        "lymph_node"
+      ],
+      "missing_concepts": [
+        "carcinoma",
+        "invasive",
+        "ductal",
+        "grade",
+        "in_situ",
+        "margin"
+      ],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-D8-A1JG",
+      "n_match": 2,
+      "n_missing": 2,
+      "n_wrong": 4,
+      "match_concepts": [
+        "carcinoma",
+        "lymph_node"
+      ],
+      "missing_concepts": [
+        "in_situ",
+        "margin"
+      ],
+      "wrong_concepts": [
+        "positive",
+        "metastasis",
+        "invasive",
+        "ductal"
+      ]
+    },
+    {
+      "case_id": "TCGA-BH-A1F6",
+      "n_match": 2,
+      "n_missing": 5,
+      "n_wrong": 0,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [
+        "carcinoma",
+        "metastasis",
+        "invasive",
+        "ductal",
+        "lobular"
+      ],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-S3-AA12",
+      "n_match": 2,
+      "n_missing": 0,
+      "n_wrong": 0,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-BH-A0B3",
+      "n_match": 8,
+      "n_missing": 2,
+      "n_wrong": 0,
+      "match_concepts": [
+        "carcinoma",
+        "negative",
+        "positive",
+        "invasive",
+        "ductal",
+        "grade",
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [
+        "metastasis",
+        "in_situ"
+      ],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-A8-A0A7",
+      "n_match": 2,
+      "n_missing": 4,
+      "n_wrong": 0,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [
+        "carcinoma",
+        "metastasis",
+        "invasive",
+        "lobular"
+      ],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-AO-A12A",
+      "n_match": 2,
+      "n_missing": 0,
+      "n_wrong": 6,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [],
+      "wrong_concepts": [
+        "carcinoma",
+        "negative",
+        "invasive",
+        "ductal",
+        "lobular",
+        "in_situ"
+      ]
+    },
+    {
+      "case_id": "TCGA-E9-A1R2",
+      "n_match": 2,
+      "n_missing": 5,
+      "n_wrong": 0,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [
+        "carcinoma",
+        "metastasis",
+        "invasive",
+        "ductal",
+        "grade"
+      ],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-B6-A0RE",
+      "n_match": 2,
+      "n_missing": 0,
+      "n_wrong": 0,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-OL-A5S0",
+      "n_match": 3,
+      "n_missing": 5,
+      "n_wrong": 0,
+      "match_concepts": [
+        "carcinoma",
+        "metastasis",
+        "lymph_node"
+      ],
+      "missing_concepts": [
+        "negative",
+        "invasive",
+        "ductal",
+        "grade",
+        "margin"
+      ],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-D8-A1JE",
+      "n_match": 4,
+      "n_missing": 2,
+      "n_wrong": 2,
+      "match_concepts": [
+        "carcinoma",
+        "metastasis",
+        "invasive",
+        "lymph_node"
+      ],
+      "missing_concepts": [
+        "negative",
+        "margin"
+      ],
+      "wrong_concepts": [
+        "positive",
+        "ductal"
+      ]
+    },
+    {
+      "case_id": "TCGA-A8-A08A",
+      "n_match": 5,
+      "n_missing": 0,
+      "n_wrong": 0,
+      "match_concepts": [
+        "carcinoma",
+        "invasive",
+        "ductal",
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-A2-A3XT",
+      "n_match": 2,
+      "n_missing": 4,
+      "n_wrong": 0,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [
+        "carcinoma",
+        "positive",
+        "metastasis",
+        "invasive"
+      ],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-AO-A0J4",
+      "n_match": 2,
+      "n_missing": 0,
+      "n_wrong": 5,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [],
+      "wrong_concepts": [
+        "carcinoma",
+        "negative",
+        "invasive",
+        "ductal",
+        "grade"
+      ]
+    },
+    {
+      "case_id": "TCGA-A8-A0A9",
+      "n_match": 3,
+      "n_missing": 0,
+      "n_wrong": 2,
+      "match_concepts": [
+        "invasive",
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [],
+      "wrong_concepts": [
+        "carcinoma",
+        "ductal"
+      ]
+    },
+    {
+      "case_id": "TCGA-B6-A0IP",
+      "n_match": 3,
+      "n_missing": 2,
+      "n_wrong": 1,
+      "match_concepts": [
+        "carcinoma",
+        "invasive",
+        "margin"
+      ],
+      "missing_concepts": [
+        "lobular",
+        "lymph_node"
+      ],
+      "wrong_concepts": [
+        "ductal"
+      ]
+    },
+    {
+      "case_id": "TCGA-A2-A0YM",
+      "n_match": 2,
+      "n_missing": 0,
+      "n_wrong": 1,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [],
+      "wrong_concepts": [
+        "negative"
+      ]
+    },
+    {
+      "case_id": "TCGA-E2-A1AZ",
+      "n_match": 4,
+      "n_missing": 4,
+      "n_wrong": 1,
+      "match_concepts": [
+        "carcinoma",
+        "metastasis",
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [
+        "negative",
+        "invasive",
+        "ductal",
+        "grade"
+      ],
+      "wrong_concepts": [
+        "positive"
+      ]
+    },
+    {
+      "case_id": "TCGA-BH-A0DH",
+      "n_match": 2,
+      "n_missing": 2,
+      "n_wrong": 4,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [
+        "ductal",
+        "grade"
+      ],
+      "wrong_concepts": [
+        "carcinoma",
+        "benign",
+        "invasive",
+        "lobular"
+      ]
+    },
+    {
+      "case_id": "TCGA-A7-A4SE",
+      "n_match": 2,
+      "n_missing": 5,
+      "n_wrong": 0,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [
+        "carcinoma",
+        "negative",
+        "invasive",
+        "ductal",
+        "grade"
+      ],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-B6-A1KI",
+      "n_match": 1,
+      "n_missing": 2,
+      "n_wrong": 0,
+      "match_concepts": [
+        "margin"
+      ],
+      "missing_concepts": [
+        "negative",
+        "lymph_node"
+      ],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-B6-A0I9",
+      "n_match": 2,
+      "n_missing": 2,
+      "n_wrong": 0,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [
+        "carcinoma",
+        "invasive"
+      ],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-BH-A0DI",
+      "n_match": 5,
+      "n_missing": 4,
+      "n_wrong": 0,
+      "match_concepts": [
+        "carcinoma",
+        "positive",
+        "metastasis",
+        "ductal",
+        "lymph_node"
+      ],
+      "missing_concepts": [
+        "negative",
+        "invasive",
+        "lobular",
+        "margin"
+      ],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-A2-A3Y0",
+      "n_match": 2,
+      "n_missing": 1,
+      "n_wrong": 2,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [
+        "invasive"
+      ],
+      "wrong_concepts": [
+        "negative",
+        "grade"
+      ]
+    },
+    {
+      "case_id": "TCGA-BH-A18S",
+      "n_match": 1,
+      "n_missing": 4,
+      "n_wrong": 0,
+      "match_concepts": [
+        "margin"
+      ],
+      "missing_concepts": [
+        "carcinoma",
+        "benign",
+        "negative",
+        "lymph_node"
+      ],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-AC-A23E",
+      "n_match": 1,
+      "n_missing": 2,
+      "n_wrong": 4,
+      "match_concepts": [
+        "lymph_node"
+      ],
+      "missing_concepts": [
+        "metastasis",
+        "margin"
+      ],
+      "wrong_concepts": [
+        "carcinoma",
+        "ductal",
+        "grade",
+        "in_situ"
+      ]
+    },
+    {
+      "case_id": "TCGA-E9-A22E",
+      "n_match": 3,
+      "n_missing": 4,
+      "n_wrong": 1,
+      "match_concepts": [
+        "metastasis",
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [
+        "carcinoma",
+        "positive",
+        "invasive",
+        "ductal"
+      ],
+      "wrong_concepts": [
+        "negative"
+      ]
+    },
+    {
+      "case_id": "TCGA-D8-A142",
+      "n_match": 2,
+      "n_missing": 0,
+      "n_wrong": 3,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [],
+      "wrong_concepts": [
+        "carcinoma",
+        "negative",
+        "metastasis"
+      ]
+    },
+    {
+      "case_id": "TCGA-B6-A0X4",
+      "n_match": 2,
+      "n_missing": 0,
+      "n_wrong": 0,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-C8-A274",
+      "n_match": 2,
+      "n_missing": 1,
+      "n_wrong": 2,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [
+        "metastasis"
+      ],
+      "wrong_concepts": [
+        "carcinoma",
+        "ductal"
+      ]
+    },
+    {
+      "case_id": "TCGA-BH-A0H6",
+      "n_match": 2,
+      "n_missing": 7,
+      "n_wrong": 0,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [
+        "carcinoma",
+        "negative",
+        "positive",
+        "invasive",
+        "ductal",
+        "grade",
+        "in_situ"
+      ],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-C8-A26Y",
+      "n_match": 1,
+      "n_missing": 1,
+      "n_wrong": 5,
+      "match_concepts": [
+        "lymph_node"
+      ],
+      "missing_concepts": [
+        "margin"
+      ],
+      "wrong_concepts": [
+        "carcinoma",
+        "positive",
+        "metastasis",
+        "invasive",
+        "ductal"
+      ]
+    },
+    {
+      "case_id": "TCGA-E2-A154",
+      "n_match": 2,
+      "n_missing": 4,
+      "n_wrong": 0,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [
+        "carcinoma",
+        "invasive",
+        "ductal",
+        "in_situ"
+      ],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-C8-A138",
+      "n_match": 2,
+      "n_missing": 1,
+      "n_wrong": 0,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [
+        "metastasis"
+      ],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-AO-A129",
+      "n_match": 2,
+      "n_missing": 0,
+      "n_wrong": 0,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-E2-A158",
+      "n_match": 2,
+      "n_missing": 3,
+      "n_wrong": 0,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [
+        "carcinoma",
+        "negative",
+        "metastasis"
+      ],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-C8-A12L",
+      "n_match": 2,
+      "n_missing": 0,
+      "n_wrong": 0,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-AR-A24L",
+      "n_match": 5,
+      "n_missing": 5,
+      "n_wrong": 0,
+      "match_concepts": [
+        "carcinoma",
+        "ductal",
+        "grade",
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [
+        "negative",
+        "positive",
+        "metastasis",
+        "invasive",
+        "in_situ"
+      ],
+      "wrong_concepts": []
+    },
+    {
+      "case_id": "TCGA-BH-A1ES",
+      "n_match": 2,
+      "n_missing": 4,
+      "n_wrong": 0,
+      "match_concepts": [
+        "lymph_node",
+        "margin"
+      ],
+      "missing_concepts": [
+        "carcinoma",
+        "metastasis",
+        "invasive",
+        "ductal"
+      ],
+      "wrong_concepts": []
+    }
+  ]
+}

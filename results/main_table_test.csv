@@ -1,0 +1,11 @@
+experiment,method,type,rouge1,rouge2,rougeL,kw_cov,sem_match,sem_missed,sem_wrong,macro_f1,micro_f1
+baseline_retrieval,Raw Retrieval,text,0.149,0.0393,0.0912,0.0,,,,,
+baseline_structured,Structured (top-1),text,0.2582,0.1005,0.1977,0.4544,0.6167,0.3833,0.1429,,
+topk_fusion_k3,Fusion k=3,text,0.2507,0.0586,0.1709,0.5129,,,,,
+topk_fusion_k5,Fusion k=5,text,0.2599,0.0617,0.1746,0.5293,,,,,
+rerank_k1,Rerank k=1,text,0.256,0.0702,0.1726,0.5221,,,,,
+rerank_k3,Rerank+Fusion k=3,text,0.2551,0.0632,0.1691,0.5389,,,,,
+ours_prompt_semantic,Ours (T5+Vis+Sem),text,0.2046,0.0836,0.1754,0.4695,0.5079,0.4921,0.0919,,
+ours_prompt_semantic_v1,Ours v1 (no prompt fix),text,0.1937,0.0976,0.174,0.43,,,,,
+ours_prompt_semantic_v3,Ours v3 (gen-text sem),text,0.1901,0.0867,0.1724,0.4614,,,,,
+modular_classifier,Modular Classifier,classifier,,,,,,,,0.3674,0.4954
