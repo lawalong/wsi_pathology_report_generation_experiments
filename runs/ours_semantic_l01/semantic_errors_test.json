@@ -1,0 +1,112 @@
+{
+  "experiment": "ours_semantic_l01",
+  "split": "test",
+  "n_cases": 39,
+  "n_concepts": 12,
+  "global": {
+    "match_rate": 0.4233,
+    "missed_rate": 0.5767,
+    "wrong_rate": 0.0491,
+    "total_match": 80,
+    "total_missed": 109,
+    "total_wrong": 23
+  },
+  "per_concept": {
+    "carcinoma": {
+      "match": 3,
+      "missed": 19,
+      "wrong": 2,
+      "absent": 15,
+      "missed_rate": 0.8636,
+      "wrong_rate": 0.0513
+    },
+    "benign": {
+      "match": 0,
+      "missed": 1,
+      "wrong": 0,
+      "absent": 38,
+      "missed_rate": 1.0,
+      "wrong_rate": 0.0
+    },
+    "negative": {
+      "match": 0,
+      "missed": 11,
+      "wrong": 2,
+      "absent": 26,
+      "missed_rate": 1.0,
+      "wrong_rate": 0.0513
+    },
+    "positive": {
+      "match": 0,
+      "missed": 6,
+      "wrong": 4,
+      "absent": 29,
+      "missed_rate": 1.0,
+      "wrong_rate": 0.1026
+    },
+    "metastasis": {
+      "match": 2,
+      "missed": 14,
+      "wrong": 3,
+      "absent": 20,
+      "missed_rate": 0.875,
+      "wrong_rate": 0.0769
+    },
+    "invasive": {
+      "match": 1,
+      "missed": 20,
+      "wrong": 4,
+      "absent": 14,
+      "missed_rate": 0.9524,
+      "wrong_rate": 0.1026
+    },
+    "ductal": {
+      "match": 0,
+      "missed": 15,
+      "wrong": 3,
+      "absent": 21,
+      "missed_rate": 1.0,
+      "wrong_rate": 0.0769
+    },
+    "lobular": {
+      "match": 0,
+      "missed": 4,
+      "wrong": 2,
+      "absent": 33,
+      "missed_rate": 1.0,
+      "wrong_rate": 0.0513
+    },
+    "grade": {
+      "match": 0,
+      "missed": 9,
+      "wrong": 2,
+      "absent": 28,
+      "missed_rate": 1.0,
+      "wrong_rate": 0.0513
+    },
+    "in_situ": {
+      "match": 0,
+      "missed": 6,
+      "wrong": 1,
+      "absent": 32,
+      "missed_rate": 1.0,
+      "wrong_rate": 0.0256
+    },
+    "lymph_node": {
+      "match": 38,
+      "missed": 1,
+      "wrong": 0,
+      "absent": 0,
+      "missed_rate": 0.0256,
+      "wrong_rate": 0.0
+    },
+    "margin": {
+      "match": 36,
+      "missed": 3,
+      "wrong": 0,
+      "absent": 0,
+      "missed_rate": 0.0769,
+      "wrong_rate": 0.0
+    }
+  }
+}

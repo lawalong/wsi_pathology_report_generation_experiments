@@ -1,0 +1,122 @@
+[
+  {
+    "epoch": 1,
+    "loss_ce": 5.2195,
+    "loss_sem": 0.8394,
+    "loss_total": 5.3874,
+    "val_rougeL": 0.0445,
+    "time_sec": 4.3
+  },
+  {
+    "epoch": 2,
+    "loss_ce": 4.4899,
+    "loss_sem": 0.4991,
+    "loss_total": 4.5897,
+    "val_rougeL": 0.0976,
+    "time_sec": 3.3
+  },
+  {
+    "epoch": 3,
+    "loss_ce": 4.1963,
+    "loss_sem": 0.3133,
+    "loss_total": 4.259,
+    "val_rougeL": 0.1079,
+    "time_sec": 3.3
+  },
+  {
+    "epoch": 4,
+    "loss_ce": 3.9874,
+    "loss_sem": 0.2551,
+    "loss_total": 4.0384,
+    "val_rougeL": 0.1242,
+    "time_sec": 3.3
+  },
+  {
+    "epoch": 5,
+    "loss_ce": 3.8594,
+    "loss_sem": 0.2415,
+    "loss_total": 3.9077,
+    "val_rougeL": 0.134,
+    "time_sec": 3.5
+  },
+  {
+    "epoch": 6,
+    "loss_ce": 3.7342,
+    "loss_sem": 0.2341,
+    "loss_total": 3.781,
+    "val_rougeL": 0.1363,
+    "time_sec": 3.4
+  },
+  {
+    "epoch": 7,
+    "loss_ce": 3.6273,
+    "loss_sem": 0.2323,
+    "loss_total": 3.6737,
+    "val_rougeL": 0.1565,
+    "time_sec": 3.4
+  },
+  {
+    "epoch": 8,
+    "loss_ce": 3.5123,
+    "loss_sem": 0.2372,
+    "loss_total": 3.5597,
+    "val_rougeL": 0.1356,
+    "time_sec": 3.4
+  },
+  {
+    "epoch": 9,
+    "loss_ce": 3.4449,
+    "loss_sem": 0.2262,
+    "loss_total": 3.4901,
+    "val_rougeL": 0.1577,
+    "time_sec": 3.3
+  },
+  {
+    "epoch": 10,
+    "loss_ce": 3.3954,
+    "loss_sem": 0.2346,
+    "loss_total": 3.4423,
+    "val_rougeL": 0.1823,
+    "time_sec": 3.4
+  },
+  {
+    "epoch": 11,
+    "loss_ce": 3.2353,
+    "loss_sem": 0.223,
+    "loss_total": 3.2799,
+    "val_rougeL": 0.183,
+    "time_sec": 3.5
+  },
+  {
+    "epoch": 12,
+    "loss_ce": 3.2231,
+    "loss_sem": 0.2238,
+    "loss_total": 3.2679,
+    "val_rougeL": 0.1897,
+    "time_sec": 3.3
+  },
+  {
+    "epoch": 13,
+    "loss_ce": 3.1113,
+    "loss_sem": 0.2201,
+    "loss_total": 3.1553,
+    "val_rougeL": 0.1965,
+    "time_sec": 3.3
+  },
+  {
+    "epoch": 14,
+    "loss_ce": 3.0815,
+    "loss_sem": 0.2187,
+    "loss_total": 3.1253,
+    "val_rougeL": 0.1994,
+    "time_sec": 3.4
+  },
+  {
+    "epoch": 15,
+    "loss_ce": 2.9846,
+    "loss_sem": 0.2191,
+    "loss_total": 3.0284,
+    "val_rougeL": 0.1964,
+    "time_sec": 3.7
+  }
+]

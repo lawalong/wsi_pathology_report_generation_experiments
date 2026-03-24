@@ -54,6 +54,8 @@ SVS Image → Verify Pairing → Build Index → Build Targets → Batch Pipelin
 | 19 | `semantic_breakdown.py` | **Per-case breakdown** — wrong/missing/match analysis per case and concept |
 | 20 | `select_case_studies.py` | **Case studies** — auto-find cases with largest semantic improvement |
 | 21 | `run_semantic_ablation.py` | **Semantic ablation** — controlled λ sweep (train+predict+eval), outputs paper-ready comparison |
+| 22 | `generate_heatmap_data.py` | **Heatmap data** — patch×concept cosine similarity matrix via trained projection heads |
+| 23 | `plot_heatmap.py` | **Heatmap figure** — publication-quality PNG/PDF from heatmap CSV |
 
 ## Progress Tracking
 
@@ -84,7 +86,9 @@ code/
 │   └── prompt_dataset.jsonl         # T5 prompt training data
 ├── results/                         # Paper-ready outputs
 │   ├── main_table_test.{csv,json,tex}  # Merged results table
-│   └── case_studies.json            # Best improvement cases
+│   ├── case_studies.json            # Best improvement cases
+│   ├── semantic_ablation_summary.{csv,json}  # λ sweep comparison
+│   └── heatmap_TCGA-BH-A18S.{png,pdf}  # Patch–concept similarity figure
 ├── runs/                            # Experiment outputs
 │   ├── baseline_retrieval/          # Raw retrieval baseline
 │   ├── baseline_structured/         # Structured output baseline
@@ -93,6 +97,7 @@ code/
 │   ├── rerank_k1/                   # Semantic rerank (k=1)
 │   ├── rerank_k3/                   # Semantic rerank+fusion (k=3)
 │   ├── ours_prompt_semantic/        # T5 + visual + semantic loss (v2)
+│   ├── ours_semantic_l{0,01,02,05}/ # Semantic ablation (λ sweep)
 │   └── modular_classifier/          # Stage-A MLP classifier
 └── output/                          # Debug outputs
 ```
@@ -381,10 +386,21 @@ python evaluate_metrics.py --exp baseline_retrieval --split test
 | Metric | Baseline (Structured) | Ours (T5+Vis+Sem) | Δ |
 |--------|----------------------|-------------------|---|
 | Wrong rate ↓ | 14.3% | **9.2%** | **−36% relative** |
-| Match rate ↑ | 29.3% | 19.0% | −35% |
-| Missing rate | 18.2% | 18.4% | +1% |
+| Match rate ↑ | 61.7% | 50.8% | −18% |
+| Missing rate | 38.3% | 49.2% | +28% |
 
-> Wrong rate = hallucinated concepts. Ours reduces hallucinations by 36% relative, at the cost of being more conservative (lower match rate).
+> Wrong rate = hallucinated concepts. Ours reduces hallucinations by 36% relative, at the cost of being more conservative (higher missing rate).
+
+### Semantic Ablation (λ Sweep)
+
+| λ | Exp Name | Test ROUGE-L | Test KW Cov | Wrong↓ | Match↑ |
+|:---:|----------|:---:|:---:|:---:|:---:|
+| 0.0 | `ours_semantic_l0` | 0.1714 | 0.4509 | **4.3%** | 46.6% |
+| 0.1 | `ours_semantic_l01` | 0.1663 | 0.4248 | 4.9% | 42.3% |
+| **0.2** | `ours_semantic_l02` | **0.1787** | **0.4573** | 6.6% | 44.4% |
+| 0.5 | `ours_semantic_l05` | 0.1541 | 0.3848 | 3.2% | 36.0% |
+
+> λ=0.2 achieves the best ROUGE-L and keyword coverage. Higher λ reduces wrong rate further but at severe cost to match rate and fluency. λ=0 (no semantic loss) produces the most conservative outputs.
 
 ### Modular Classifier (Stage A)
 
@@ -427,5 +443,7 @@ pip install rouge-score bert-score sentence-transformers
 - [x] Generative model (T5-small + visual tokens + semantic alignment loss)
 - [x] Semantic error quantification (wrong/missing/match across 12 concepts)
 - [x] Paper utility scripts (merge tables, per-case breakdown, case studies)
+- [x] Semantic ablation (λ sweep: 0.0, 0.1, 0.2, 0.5)
+- [x] Patch–concept heatmap visualization (via trained projection heads)
 - [ ] Attention-based MIL aggregation (replace mean-pooling)
 - [ ] CLAM/HIPT feature extractors
